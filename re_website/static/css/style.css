@@ -1211,7 +1211,7 @@ and (min-width : 551px){
 }
 .services-post:hover a,
 .services-post a.active {
-  background: #ff432e;
+  background: #67bb44;
   color: #ffffff;
   border:2px solid transparent;
 }
@@ -1441,6 +1441,10 @@ h3.pricing-title {
     color: #c5c5c5;
 }
 
+.section-title p{
+    color: #5BB12F;
+    font-size: 40px;
+}
 .footer-section .section-heading-2 span:after {
     background: #434343;
 }
