@@ -9,4 +9,7 @@ class HomeTemplateView(TemplateView):
     def get_context_data(self, *args, **kwargs):
         context = super(HomeTemplateView, self).get_context_data(*args, **kwargs)
         return context
+
+class ContactView(TemplateView):
+    template_name = 'contact.html'
         
