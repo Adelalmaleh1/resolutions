@@ -76,8 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary {
-    background: #ff432e;
-    border-color: #ff432e;
+    background: #67bb44;
+    border-color: #67bb44;
     font-size: 16px;
     padding: 8px 15px;
     -webkit-transition: all 0.3s;
@@ -310,11 +310,13 @@ ul.social-list li a:hover i {
     -o-transition: all 0.3s ease-in-out;
 }
 
-a.navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    font-size: 40px;
-    padding-top: 20px;
-    color: #ff432e !important;
+img.navbar-brand {
+    margin-top: 40px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 10px;
+    width: auto;
+    height: 120px;
+    max-width: 100%;
 }
 
 .navbar-default .navbar-nav {
@@ -355,9 +357,9 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav > li > a.active, 
 .navbar-default .navbar-nav > li:hover > a {
-	border-top: 2px solid #FF432E;
+	border-top: 2px solid #67bb44;
     color: #fff;
-    background: #FF432E;
+    background: #67bb44;
     //padding: 25px 15px 30px;
 }
 
@@ -507,7 +509,7 @@ a.navbar-brand {
 }
 
 .banner .intro-text h1 span {
-    color: #ff432e;
+    color: #67bb44;
 }
 
 .banner .intro-text p {
