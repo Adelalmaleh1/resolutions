@@ -3,6 +3,7 @@ from django.shortcuts import render
 from .forms import ContactForm
 from django.http import HttpResponse
 from .models import Contact
+from django.core.urlresolvers import reverse
 
 
 class HomeTemplateView(TemplateView):
@@ -25,4 +26,5 @@ class ContactView(CreateView):
         )
     model = Contact
     def get_success_url(self):
-        return reverse('valuers')
+        return reverse('contact')
+    

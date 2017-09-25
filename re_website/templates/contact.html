@@ -1,5 +1,5 @@
 {% load static %}
-{% load bootstrap_tags static %}}
+{% load bootstrap_tags static %}
 <!doctype html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
@@ -137,15 +137,16 @@
             </div>
             <div class="row">
                 <div class="col-sm-offset-2">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form action= "" method="POST">
                         <div class="row"></div>
                             <div class="col-md-10 modal-body" data-wow-duration="2s" data-wow-delay="600ms">
-                                <form action= "" method="POST">
                                     {% csrf_token %}
                                     {{ form|as_bootstrap_inline }}
-                                </form>
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-primary">Send Message</button>
+                                
+                                <div id="success" class="form-actions col-md-8">
+                                    <button type="submit" class="save btn btn-primary">Send Message</button>
+                                  </div>
+                                
                             </div>
                         </div>
                     </form>
@@ -230,43 +231,43 @@
                         <div class="flickr-widget">
                             <ul class="flickr-list">
                                 <li>
-                                    <a href="asset/images/portfolio/img1.jpg" data-lightbox="picture-1">
-                                        <img src="asset/images/portfolio/img1.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img1.jpg' %}" data-lightbox="picture-1">
+                                        <img src="{% static 'images/portfolio/img1.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="asset/images/portfolio/img2.jpg" data-lightbox="picture-2">
-                                        <img src="asset/images/portfolio/img2.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img2.jpg' %}" data-lightbox="picture-2">
+                                        <img src="{% static 'images/portfolio/img2.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="asset/images/portfolio/img3.jpg" data-lightbox="picture-3">
-                                        <img src="asset/images/portfolio/img3.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img3.jpg' %}" data-lightbox="picture-3">
+                                        <img src="{% static 'images/portfolio/img3.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="asset/images/portfolio/img4.jpg" data-lightbox="picture-4">
-                                        <img src="asset/images/portfolio/img4.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img4.jpg' %}" data-lightbox="picture-4">
+                                        <img src="{% static 'images/portfolio/img4.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="asset/images/portfolio/img5.jpg" data-lightbox="picture-5">
-                                        <img src="asset/images/portfolio/img5.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img5.jpg' %}" data-lightbox="picture-5">
+                                        <img src="{% static 'images/portfolio/img5.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="asset/images/portfolio/img6.jpg" data-lightbox="picture-6">
-                                        <img src="asset/images/portfolio/img6.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img5.jpg' %}" data-lightbox="picture-6">
+                                        <img src="{% static 'images/portfolio/img5.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="asset/images/portfolio/img1.jpg" data-lightbox="picture-7">
-                                        <img src="asset/images/portfolio/img1.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img1.jpg' %}" data-lightbox="picture-7">
+                                        <img src="{% static 'images/portfolio/img1.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="asset/images/portfolio/img2.jpg" data-lightbox="picture-8">
-                                        <img src="asset/images/portfolio/img2.jpg" alt="" class="img-responsive">
+                                    <a href="{% static 'images/portfolio/img2.jpg' %}" data-lightbox="picture-8">
+                                        <img src="{% static 'images/portfolio/img2.jpg' %}" alt="" class="img-responsive">
                                     </a>
                                 </li>
                             </ul>
