@@ -870,7 +870,9 @@ iframe {
 #team-section .section-title h2 {
     //color: #fff;
 }
-
+.team-text{
+    
+}
 #team-section .section-title p {
     //color: #fff;
 }
@@ -885,7 +887,7 @@ iframe {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 67, 46, 0.8);
+    background-color: rgba(91, 177, 47, 0.8);
     color: #fff;
     padding: 0 2px;
     opacity: 0;
