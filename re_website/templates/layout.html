@@ -47,120 +47,55 @@
 
 {% block content %}
 {% endblock %} 
-<!-- Start Footer Section -->
-<section id="footer-section" class="footer-section">
-        <div class="container">
+<div class="footer-bs text-center col-xs-12" data-anchor="solutions">
+        <div class="">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="section-heading-2">
-                        <h3 class="section-title">
-                            <span>Office Address</span>
-                        </h3>
-                    </div>
-                    
-                    <div class="footer-address">
-                        <ul>
-                            <li class="footer-contact"><i class="fa fa-home"></i>123, Second Street name, Address</li>
-                            <li class="footer-contact"><i class="fa fa-envelope"></i><a href="#">info@domain.com</a></li>
-                            <li class="footer-contact"><i class="fa fa-phone"></i>+1 (123) 456-7890</li>
-                            <li class="footer-contact"><i class="fa fa-globe"></i><a href="#" target="_blank">www.domain.com</a></li>
-                        </ul>
-                    </div>
-                </div><!--/.col-md-3 -->
-                
-                
-                <div class="col-md-3">
-                    <div class="section-heading-2">
-                        <h3 class="section-title">
-                            <span>Latest Tweet</span>
-                        </h3>
-                    </div>
-                    
-                    <div class="latest-tweet">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="fa fa-twitter fa-2x media-object"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">About 15 days ago</h4>
-                                <p>Finally #tutsplus start a tutorial on A Beginner’s Guide to Using #joomla . Check it out here http://t.co/i6S4zeW8Z0</p>
-                            </div>
+                <div class="col-md-3 footer-brand">
+                    <div id="logo3">
+                            <img src="{% static 'images/logo3.png' %}">
                         </div>
-                    </div>
-                </div><!--/.col-md-3 -->
-                
-                <div class="col-md-3">
-                    <div class="section-heading-2">
-                        <h3 class="section-title">
-                            <span>Stay With us</span>
-                        </h3>
-                    </div>
-                    <div class="subscription">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your E-mail" id="name" required data-validation-required-message="Please enter your name.">
-                            <input type="submit" class="btn btn-primary" value="Subscribe">
-                        </div>
-                    </div>
+                    
                 </div>
+                <div class="col-md-4 footer-nav">
+                    <div class="col-md-6">
+                    <ul class="pages text-left">
+                        <li><a href="http://vms.com.my/"><i class="fa fa-bar-chart" aria-hidden="true"></i> VMS</a></li>
+                        <li><i class="fa fa-briefcase" aria-hidden="true"></i> Job Openings</a></li>
+                        <li><i class="fa fa-bell" aria-hidden="true"></i> Terms & Conditions</a></li>
+                        <li><i class="fa fa-hand-paper-o" aria-hidden="true"></i> Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list text-right">
+                        <li><a href="#aboutus">About</a></li>
+                        <li><a href="">Financial Institutions</a></li>
+                        <li><a href="">Valuers <br>Property Professionals</a></li>
+                        <li><a href="">Data Analysts</a></li>
+                        <li> <a href="">Data</a></li> 
+                        <li><a href="#contact">Contact Us</a></li> 
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2 footer-social">
                 
-                <div class="col-md-3">
-                    <div class="section-heading-2">
-                        <h3 class="section-title">
-                            <span>FLICKR STREAM</span>
-                        </h3>
-                    </div>
-                    
-                    <div class="flickr-widget">
-                        <ul class="flickr-list">
-                            <li>
-                                <a href="{% static 'images/portfolio/img1.jpg' %}" data-lightbox="picture-1">
-                                    <img src="{% static 'images/portfolio/img1.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{% static 'images/portfolio/img2.jpg' %}" data-lightbox="picture-2">
-                                    <img src="{% static 'images/portfolio/img2.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{% static 'images/portfolio/img3.jpg' %}" data-lightbox="picture-3">
-                                    <img src="{% static 'images/portfolio/img3.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{% static 'images/portfolio/img4.jpg' %}" data-lightbox="picture-4">
-                                    <img src="{% static 'images/portfolio/img4.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{% static 'images/portfolio/img5.jpg' %}" data-lightbox="picture-5">
-                                    <img src="{% static 'images/portfolio/img5.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{% static 'images/portfolio/img6.jpg' %}" data-lightbox="picture-6">
-                                    <img src="{% static 'images/portfolio/img6.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{% static 'images/portfolio/img1.jpg' %}" data-lightbox="picture-7">
-                                    <img src="{% static 'images/portfolio/img1.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="{% static 'images/portfolio/img2.jpg' %}" data-lightbox="picture-8">
-                                    <img src="{% static 'images/portfolio/img2.jpg' %}" alt="" class="img-responsive">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!--/.col-md-3 -->
-            </div><!--/.row -->
-        </div><!-- /.container -->
-    </section>
-    <!-- End Footer Section -->
-    
+                <ul class="page text-left">
+                <li><a href="https://www.facebook.com/resolutionsmy/?ref=aymt_homepage_panel"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/company-beta/13213733/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>   
+                </ul>
+            </div>
+            <div class="col-md-3 footer-ns text-left  footer-nav">
+                <a style="color:white" href="https://www.google.com/maps/place/Centum+Oasis+Corporate+Park/@3.1135181,101.5749815,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4e820a67e927:0x1451b173171ddb3b!8m2!3d3.1135127!4d101.5771702"><i class="fa fa-map-marker" aria-hidden="true"></i> C-8-16, Centum @ Oasis Corporate Park, No.2, Jalan Pju 1A/2, Ara Damansara, Petaling Jaya, Selangor, 47301, Malaysia </a>    
+                <br><br>
+                <b>For any enquiries:</b><br><br>
+                <ul class="list text-left ">
+                <li>Email: <a href="mailto:info@resolutions.com.my" style="color: #fff">info@resolutions.com.my</a></li>
+                <li>Telephone: <a href="tel:+60376212173" style="color: #fff">+60 3 76212173</a></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    </div>   
     
     <!-- Start CCopyright Section -->
     <div id="copyright-section" class="copyright-section">
@@ -168,7 +103,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="copyright">
-                        Copyright © 2014. All Rights Reserved.Design and Developed by <a href="http://www.themefisher.com">Themefisher</a>
+                        <p style="color: #fff"> Copyright 2017 Valuation Management System. All Rights Reserved. Valuation Management System (VMS) is a product of Real Estate Solutions Sdn Bhd</p>
                     </div>
                 </div>
                 
@@ -184,8 +119,4 @@
             </div><!--/.row -->
         </div><!-- /.container -->
     </div>
-    <!-- End CCopyright Section -->
-    
-    
-    
 </body>

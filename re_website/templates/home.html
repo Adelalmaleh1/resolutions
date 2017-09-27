@@ -73,10 +73,10 @@
                                 <a class="active" href="{% url 'home' %}">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="#about">About Us</a>
                             </li>
                             <li>
-                                <a href="service.html">Service</a>
+                                <a href="#portfolio">Solutions</a>
                             </li>
                             <li>
                                 <a href="portfolio.html">Portfolio</a>
@@ -108,7 +108,7 @@
                     <div class="intro-text">
                         <h1>MAKE <span>BETTER DECISIONS, FASTER.</span></h1>
                         <p>Delivering insights through <br> real estate data, analytics and solutions</p>
-                        <a href="#feature" class="page-scroll btn btn-primary">Read More</a>
+                        <a href="#feature" class="page-scroll btn btn-primary">Discover</a>
                     </div>
                 </div>
             </div>
@@ -135,18 +135,19 @@
                 </div>
                 <div class="col-md-4">
                     <div class="services-post">
-                        <a href="#"><i class="fa fa-magic"></i></a>
-                        <h2>RESPONSIVE DESIGN</h2>
-                        <p>VMS streamlines valuation policies and procedures to actively mitigate risk of losses, fraud and collusion, reduce operating costs and improve the overall customer experience. </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="services-post">
                         <a href="#"><i class="fa fa-gift"></i></a>
                         <h2>RESPONSIVE DESIGN</h2>
                         <p>VMS specialised property systems and data provider. Our flagship Software as a Service (SaaS) system combine up to date property data with a comprehensive analytics engine to help drive confident decision making within the property and finance industries. </p>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="services-post">
+                        <a href="#"><i class="fa fa-magic"></i></a>
+                        <h2>RESPONSIVE DESIGN</h2>
+                        <p>VMS streamlines valuation policies and procedures to actively mitigate risk of losses, fraud and collusion, reduce operating costs and improve the overall customer experience. </p>
+                    </div>
+                </div>
+                
                 
             </div>
         </div>
@@ -156,7 +157,7 @@
     
         
         <!-- Start About Us Section -->
-    <section id="about-section" class="about-section">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -208,7 +209,7 @@
             </div>
         </div>
     </section>
-        <div class="section-title text-center">
+        <div class="section-trust text-center">
                 <h2>Trusted By</h2>
         </div>   
         
@@ -255,11 +256,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                    <div class="section-trust text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                        <br>    
                         <h2>Our People</h2>
+                        <br><br><br>
                         <p>At the core of RE Solutions is a highly skilled team of professionals
                                 vastly experienced in their respective fields</p>
                     </div>                        
+                    
                 </div>
             </div>
             <div class="row">
@@ -338,8 +342,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
-                            <h2>Our Portfolio</h2>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                            <h2>Solutions</h2>
                         </div>                        
                     </div>
                 </div>
@@ -352,19 +355,14 @@
                                 <div class="portfolio-item">
                                     <img src="{% static 'images/portfolio/img1.jpg' %}" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
-                                        <h4>Portfolio Title</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-                                        <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                        <a href="#" class="link-2"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="600ms">
-                                <div class="portfolio-item">
-                                    <img src="{% static 'images/portfolio/img2.jpg' %}" class="img-responsive" alt="" />
-                                    <div class="portfolio-caption">
-                                        <h4>Portfolio Title</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                                        <h4>A complete end-to-end facilitator of the valuation process between financiers and valuers for the:</h4>
+                                        <p>
+                                            <ul>
+                                                <li></i>New Valuations</li>
+                                                <li></i>Automated Portfolio</li>
+                                                <li></i>Revaluation</li>
+                                            </ul>
+                                        </p>
                                         <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
                                         <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                     </div>
@@ -374,47 +372,25 @@
                                 <div class="portfolio-item">
                                     <img src="{% static 'images/portfolio/img3.jpg' %}" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
-                                        <h4>Portfolio Title</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                                    
+                                        <p>Gain insights into the real estate market using the very latest data and our cutting edge analytics solutions. </p>
                                         <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
                                         <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                             </li>
-                            <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1200ms">
+                            <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="600ms">
                                 <div class="portfolio-item">
-                                    <img src="{% static 'images/portfolio/img4.jpg' %}" class="img-responsive" alt="" />
+                                    <img src="{% static 'images/portfolio/img2.jpg' %}" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
-                                        <h4>Portfolio Title</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                                      
+                                        <p>Complete solution for the modern valuation firm.</p>
+                                        <p>Search transactions, manage workflow, capture data and generate reports anytime, anywhere.</p>
                                         <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
                                         <a href="#" class="link-2"><i class="fa fa-link"></i></a>
                                     </div>
                                 </div>
                             </li>
-                            <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1500ms">
-                                <div class="portfolio-item">
-                                    <img src="{% static 'images/portfolio/img5.jpg' %}" class="img-responsive" alt="" />
-                                    <div class="portfolio-caption">
-                                        <h4>Portfolio Title</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-                                        <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                        <a href="#" class="link-2"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1800ms">
-                                <div class="portfolio-item">
-                                    <img src="{% static 'images/portfolio/img6.jpg' %}" class="img-responsive" alt="" />
-                                    <div class="portfolio-caption">
-                                        <h4>Portfolio Title</h4>
-                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
-                                        <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
-                                        <a href="#" class="link-2"><i class="fa fa-link"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                            
                             
                         </ul>
                         <!-- End Portfolio items -->
@@ -463,122 +439,55 @@
             </div>
         </section>
         <!-- End Testimonial Section -->
-       
-        
-        <!-- Start Footer Section -->
-        <section id="footer-section" class="footer-section">
-            <div class="container">
+        <div class="footer-bs text-center col-xs-12" data-anchor="solutions">
+            <div class="">
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="section-heading-2">
-                            <h3 class="section-title">
-                                <span>Office Address</span>
-                            </h3>
-                        </div>
-                        
-                        <div class="footer-address">
-                            <ul>
-                                <li class="footer-contact"><i class="fa fa-home"></i>123, Second Street name, Address</li>
-                                <li class="footer-contact"><i class="fa fa-envelope"></i><a href="#">info@domain.com</a></li>
-                                <li class="footer-contact"><i class="fa fa-phone"></i>+1 (123) 456-7890</li>
-                                <li class="footer-contact"><i class="fa fa-globe"></i><a href="#" target="_blank">www.domain.com</a></li>
-                            </ul>
-                        </div>
-                    </div><!--/.col-md-3 -->
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="section-heading-2">
-                            <h3 class="section-title">
-                                <span>Latest Tweet</span>
-                            </h3>
-                        </div>
-                        
-                        <div class="latest-tweet">
-                            <div class="media">
-                                <div class="media-left">
-                                    <i class="fa fa-twitter fa-2x media-object"></i>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">About 15 days ago</h4>
-                                    <p>Finally #tutsplus start a tutorial on A Beginner’s Guide to Using #joomla . Check it out here http://t.co/i6S4zeW8Z0</p>
-                                </div>
+                    <div class="col-md-3 footer-brand">
+                        <div id="logo3">
+                                <img src="{% static 'images/logo3.png' %}">
                             </div>
-                        </div>
-                    </div><!--/.col-md-3 -->
-                    
-                    <div class="col-md-3">
-                        <div class="section-heading-2">
-                            <h3 class="section-title">
-                                <span>Stay With us</span>
-                            </h3>
-                        </div>
-                        <div class="subscription">
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your E-mail" id="name" required data-validation-required-message="Please enter your name.">
-                                <input type="submit" class="btn btn-primary" value="Subscribe">
-                            </div>
-                        </div>
+                        
                     </div>
+                    <div class="col-md-4 footer-nav">
+                        <div class="col-md-6">
+                        <ul class="pages text-left">
+                            <li><a href="http://vms.com.my/"><i class="fa fa-bar-chart" aria-hidden="true"></i> VMS</a></li>
+                            <li><i class="fa fa-briefcase" aria-hidden="true"></i> Job Openings</a></li>
+                            <li><i class="fa fa-bell" aria-hidden="true"></i> Terms & Conditions</a></li>
+                            <li><i class="fa fa-hand-paper-o" aria-hidden="true"></i> Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list text-right">
+                            <li><a href="#aboutus">About</a></li>
+                            <li><a href="">Financial Institutions</a></li>
+                            <li><a href="">Valuers <br>Property Professionals</a></li>
+                            <li><a href="">Data Analysts</a></li>
+                            <li> <a href="">Data</a></li> 
+                            <li><a href="#contact">Contact Us</a></li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 footer-social">
                     
-                    <div class="col-md-3">
-                        <div class="section-heading-2">
-                            <h3 class="section-title">
-                                <span>FLICKR STREAM</span>
-                            </h3>
-                        </div>
-                        
-                        <div class="flickr-widget">
-                            <ul class="flickr-list">
-                                <li>
-                                    <a href="{% static 'images/portfolio/img1.jpg' %}" data-lightbox="picture-1">
-                                        <img src="{% static 'images/portfolio/img1.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% static 'images/portfolio/img2.jpg' %}" data-lightbox="picture-2">
-                                        <img src="{% static 'images/portfolio/img2.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% static 'images/portfolio/img3.jpg' %}" data-lightbox="picture-3">
-                                        <img src="{% static 'images/portfolio/img3.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% static 'images/portfolio/img4.jpg' %}" data-lightbox="picture-4">
-                                        <img src="{% static 'images/portfolio/img4.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% static 'images/portfolio/img5.jpg' %}" data-lightbox="picture-5">
-                                        <img src="{% static 'images/portfolio/img5.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% static 'images/portfolio/img6.jpg' %}" data-lightbox="picture-6">
-                                        <img src="{% static 'images/portfolio/img6.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% static 'images/portfolio/img1.jpg' %}" data-lightbox="picture-7">
-                                        <img src="{% static 'images/portfolio/img1.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{% static 'images/portfolio/img2.jpg' %}" data-lightbox="picture-8">
-                                        <img src="{% static 'images/portfolio/img2.jpg' %}" alt="" class="img-responsive">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div><!--/.col-md-3 -->
-                </div><!--/.row -->
-            </div><!-- /.container -->
-        </section>
-        <!-- End Footer Section -->
-        
+                    <ul class="page text-left">
+                    <li><a href="https://www.facebook.com/resolutionsmy/?ref=aymt_homepage_panel"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/company-beta/13213733/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>   
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-ns text-left  footer-nav">
+                    <a style="color:white" href="https://www.google.com/maps/place/Centum+Oasis+Corporate+Park/@3.1135181,101.5749815,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4e820a67e927:0x1451b173171ddb3b!8m2!3d3.1135127!4d101.5771702"><i class="fa fa-map-marker" aria-hidden="true"></i> C-8-16, Centum @ Oasis Corporate Park, No.2, Jalan Pju 1A/2, Ara Damansara, Petaling Jaya, Selangor, 47301, Malaysia </a>    
+                    <br><br>
+                    <b>For any enquiries:</b><br><br>
+                    <ul class="list text-left ">
+                    <li>Email: <a href="mailto:info@resolutions.com.my" style="color: #fff">info@resolutions.com.my</a></li>
+                    <li>Telephone: <a href="tel:+60376212173" style="color: #fff">+60 3 76212173</a></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        </div>   
         
         <!-- Start CCopyright Section -->
         <div id="copyright-section" class="copyright-section">
@@ -586,7 +495,7 @@
                 <div class="row">
                     <div class="col-md-7">
                         <div class="copyright">
-                            Copyright © 2014. All Rights Reserved.Design and Developed by <a href="http://www.themefisher.com">Themefisher</a>
+                            <p style="color: #fff"> Copyright 2017 Valuation Management System. All Rights Reserved. Valuation Management System (VMS) is a product of Real Estate Solutions Sdn Bhd</p>
                         </div>
                     </div>
                     
