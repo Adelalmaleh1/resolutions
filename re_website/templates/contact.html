@@ -2,81 +2,18 @@
 {% load static %}
 {% load bootstrap_tags static %}
 {% block content %}
-<!doctype html>
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
-<html lang="en">
-    <body>
-        <header class="clearfix">
-            <!-- Start  Logo & Naviagtion  -->
-            <div class="navbar navbar-default navbar-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <!-- Stat Toggle Nav Link For Mobiles -->
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <!-- End Toggle Nav Link For Mobiles -->
-                        <a href="{% url 'home' %}"><img src="{% static 'images/re_logo.png' %}" class="navbar-brand" alt="images"></a>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                        
-                        <!-- Start Navigation List -->
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href='{% url 'home' %}'>Home</a>
-                            </li>
-                            <li>
-                                <a href="about.html">About Us</a>
-                            </li>
-                            <li>
-                                <a href="service.html">Service</a>
-                            </li>
-                            <li>
-                                <a href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="blog.html">Blog</a>
-                                <ul class="dropdown">
-                                    <li>
-                                        <a href="blog-item.html">Item Page</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a class="active" href="{% url 'contact' %}">Contact</a>
-                            </li>
-                        </ul>
-                        <!-- End Navigation List -->
-                    </div>
-                </div>
-            </div>
-            <!-- End Header Logo & Naviagtion -->
-            
-        </header>
-        
-        
-        <!-- Start Header Section -->
-        <div class="page-header">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1>Contact with Us</h1>
-                        </div>
+    
+    <div class="page-header">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Contact with Us</h1>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Header Section -->
-        
-        
-        
-        
-        
-        
-
-        
-        <!-- Start Contact Us Section -->
+    </div>
     <section id="contact" class="contact">
         <div class="container">
             <div class="row">
@@ -102,17 +39,11 @@
                     </form>
                 </div>
             </div>
-        </div>
-        
+        </div>  
     </section>
-
-   
-
     <div class="google-map">
         <div id="map" data-position-latitude="48.858370" data-position-longitude="2.294481"></div>
     </div>
-        
-
    {% endblock %}
     </body>
 </html>

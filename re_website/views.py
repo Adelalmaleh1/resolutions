@@ -27,4 +27,13 @@ class ContactView(CreateView):
     model = Contact
     def get_success_url(self):
         return reverse('contact')
+
+class FinancialView(TemplateView):
+    template_name = 'financial.html'
+
+class ValuerView(TemplateView):
+    template_name = 'valuer.html'
+
+class AnalysisView(TemplateView):
+    template_name = 'analysis.html'
     

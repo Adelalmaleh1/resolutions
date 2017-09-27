@@ -383,7 +383,7 @@ img.navbar-brand {
     top: 97%;
     width: 180px;
 	background-color: #fff;
-    border-top: 3px solid #FF432E;
+    border-top: 3px solid #67bb44;
     visibility: hidden;
     z-index: 2;
 	opacity: 0;
@@ -429,13 +429,13 @@ img.navbar-brand {
 
 .dropdown > li:hover > a, 
 .sup-dropdown li:hover > a {
-    background: #FF432E;
+    background: #67bb44;
     color: #fff;
 }
 
 .dropdown  li a.active, 
 .sup-dropdown li a.active {
-	background: #FF432E;
+	background: #67bb44;
     color: #fff;
 }
 

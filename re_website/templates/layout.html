@@ -45,57 +45,114 @@
 </head>
 
 
-{% block content %}
-{% endblock %} 
-<div class="footer-bs text-center col-xs-12" data-anchor="solutions">
-        <div class="">
-            <div class="row">
-                <div class="col-md-3 footer-brand">
-                    <div id="logo3">
-                            <img src="{% static 'images/logo3.png' %}">
-                        </div>
-                    
-                </div>
-                <div class="col-md-4 footer-nav">
-                    <div class="col-md-6">
-                    <ul class="pages text-left">
-                        <li><a href="http://vms.com.my/"><i class="fa fa-bar-chart" aria-hidden="true"></i> VMS</a></li>
-                        <li><i class="fa fa-briefcase" aria-hidden="true"></i> Job Openings</a></li>
-                        <li><i class="fa fa-bell" aria-hidden="true"></i> Terms & Conditions</a></li>
-                        <li><i class="fa fa-hand-paper-o" aria-hidden="true"></i> Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <ul class="list text-right">
-                        <li><a href="#aboutus">About</a></li>
-                        <li><a href="">Financial Institutions</a></li>
-                        <li><a href="">Valuers <br>Property Professionals</a></li>
-                        <li><a href="">Data Analysts</a></li>
-                        <li> <a href="">Data</a></li> 
-                        <li><a href="#contact">Contact Us</a></li> 
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 footer-social">
+
+<header class="clearfix">   
+    <!-- Start  Logo & Naviagtion  -->
+    <div class="navbar navbar-default navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Stat Toggle Nav Link For Mobiles -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- End Toggle Nav Link For Mobiles -->
                 
-                <ul class="page text-left">
-                <li><a href="https://www.facebook.com/resolutionsmy/?ref=aymt_homepage_panel"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
-                <li><a href="https://www.linkedin.com/company-beta/13213733/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>   
-                </ul>
+                <a href="{% url 'home' %}"><img src="{% static 'images/re_logo.png' %}" class="navbar-brand" alt="images"></a>
             </div>
-            <div class="col-md-3 footer-ns text-left  footer-nav">
-                <a style="color:white" href="https://www.google.com/maps/place/Centum+Oasis+Corporate+Park/@3.1135181,101.5749815,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4e820a67e927:0x1451b173171ddb3b!8m2!3d3.1135127!4d101.5771702"><i class="fa fa-map-marker" aria-hidden="true"></i> C-8-16, Centum @ Oasis Corporate Park, No.2, Jalan Pju 1A/2, Ara Damansara, Petaling Jaya, Selangor, 47301, Malaysia </a>    
-                <br><br>
-                <b>For any enquiries:</b><br><br>
-                <ul class="list text-left ">
-                <li>Email: <a href="mailto:info@resolutions.com.my" style="color: #fff">info@resolutions.com.my</a></li>
-                <li>Telephone: <a href="tel:+60376212173" style="color: #fff">+60 3 76212173</a></li>
-                </ul> 
+            <div class="navbar-collapse collapse">
+                <!-- Start Navigation List -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="active" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Products</a>
+                        <ul class="dropdown">
+                            <li>
+                                <a href="{% url 'financial' %}">Financial Institutions</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'valuer' %}">Valuers / Property Professionals</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'analysis' %}">Data Analysis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                        <ul class="dropdown">
+                            <li>
+                                <a href="blog-item.html">Item Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                        <li><a href="{% url 'contact' %}">Contact</a></li>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    </div>   
+</header>
+
+{% block content %}
+{% endblock %} 
+
+<div class="footer-bs text-center col-xs-12" data-anchor="solutions">
+    <div class="">
+        <div class="row">
+            <div class="col-md-3 footer-brand">
+                <div id="logo3">
+                        <img src="{% static 'images/logo3.png' %}">
+                    </div>
+                
+            </div>
+            <div class="col-md-4 footer-nav">
+                <div class="col-md-6">
+                <ul class="pages text-left">
+                    <li><a href="http://vms.com.my/"><i class="fa fa-bar-chart" aria-hidden="true"></i> VMS</a></li>
+                    <li><i class="fa fa-briefcase" aria-hidden="true"></i> Job Openings</a></li>
+                    <li><i class="fa fa-bell" aria-hidden="true"></i> Terms & Conditions</a></li>
+                    <li><i class="fa fa-hand-paper-o" aria-hidden="true"></i> Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list text-right">
+                    <li><a href="#aboutus">About</a></li>
+                    <li><a href="">Financial Institutions</a></li>
+                    <li><a href="">Valuers <br>Property Professionals</a></li>
+                    <li><a href="">Data Analysts</a></li>
+                    <li> <a href="">Data</a></li> 
+                    <li><a href="#contact">Contact Us</a></li> 
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-2 footer-social">
+            
+            <ul class="page text-left">
+            <li><a href="https://www.facebook.com/resolutionsmy/?ref=aymt_homepage_panel"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="https://www.linkedin.com/company-beta/13213733/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>   
+            </ul>
+        </div>
+        <div class="col-md-3 footer-ns text-left  footer-nav">
+            <a style="color:white" href="https://www.google.com/maps/place/Centum+Oasis+Corporate+Park/@3.1135181,101.5749815,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4e820a67e927:0x1451b173171ddb3b!8m2!3d3.1135127!4d101.5771702"><i class="fa fa-map-marker" aria-hidden="true"></i> C-8-16, Centum @ Oasis Corporate Park, No.2, Jalan Pju 1A/2, Ara Damansara, Petaling Jaya, Selangor, 47301, Malaysia </a>    
+            <br><br>
+            <b>For any enquiries:</b><br><br>
+            <ul class="list text-left ">
+            <li>Email: <a href="mailto:info@resolutions.com.my" style="color: #fff">info@resolutions.com.my</a></li>
+            <li>Telephone: <a href="tel:+60376212173" style="color: #fff">+60 3 76212173</a></li>
+            </ul> 
+        </div>
+    </div>
+    </div>
+</div>   
     
     <!-- Start CCopyright Section -->
     <div id="copyright-section" class="copyright-section">

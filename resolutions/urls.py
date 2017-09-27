@@ -16,10 +16,15 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from re_website.views import HomeTemplateView, ContactView
+from re_website.views import HomeTemplateView, ContactView, FinancialView, ValuerView, AnalysisView
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
     url(r'^$', HomeTemplateView.as_view(), name='home'),
+
     url(r'^contact/$', ContactView.as_view(), name='contact'),
+    url(r'^financial/$', FinancialView.as_view(), name='financial'),
+    url(r'^valuer/$', ValuerView.as_view(), name='valuer'),
+    url(r'^analysis/$', AnalysisView.as_view(), name='analysis'),
+
+    url(r'^admin/', admin.site.urls),
 ]
