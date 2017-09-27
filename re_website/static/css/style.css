@@ -5,7 +5,6 @@
 /*	     01 - General & Basic Styles
 /*------------------------------------------*/
 
-
 body {
 	font-family: 'PT Sans Narrow', Arial, sans-serif;
 	font-size: 16px;
@@ -1366,20 +1365,43 @@ h3.pricing-title {
 #testimonial-section {
     background: url(../images/parallax/call-to.jpg) no-repeat;
     background-size: cover;
+    
     padding: 100px 0;
     color: #fff;
 }
 
+
 .testimonial-item {
     text-align: center;
+    margin-top: 40px;
+}
+
+.testimonial-item h1 {
+    margin-bottom: 40px;
+}
+.testimonial-item h4 {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #5BB12F;
+    font-size: 25px;
 }
 
 .testimonial-item p {
-    color: #fff;
     margin-left: 20%;
+    padding-top: 30px;
     margin-right: 20%;
+    color: #fff;
+    font-size: 20px;
 }
 
+.testimonial-item ul {
+    margin-left: 40%;
+    list-style-type: circle;
+    text-align: left;
+    margin-right: 20%;
+    color: #fff;
+    font-size: 20px;
+}
 .testimonial-item img {
     width: 100px;
     height: 100px;
