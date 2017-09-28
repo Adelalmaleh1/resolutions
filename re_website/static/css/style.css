@@ -1380,23 +1380,31 @@ h3.pricing-title {
     margin-bottom: 40px;
 }
 .testimonial-item h4 {
-    margin-left: 20%;
+    margin-left: 25%;
     margin-right: 20%;
     color: #5BB12F;
     font-size: 25px;
 }
 
 .testimonial-item p {
+    margin-left: 30%;
+    padding-top: 30px;
+    margin-right: 0%;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+}
+
+.testimonial-item h3 {
     margin-left: 20%;
     padding-top: 30px;
     margin-right: 20%;
     color: #fff;
     font-size: 20px;
 }
-
 .testimonial-item ul {
-    margin-left: 40%;
-    list-style-type: circle;
+    margin-left: 32%;
+    list-style-type: square;
     text-align: left;
     margin-right: 20%;
     color: #fff;
