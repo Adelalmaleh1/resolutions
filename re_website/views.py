@@ -11,7 +11,18 @@ class HomeTemplateView(TemplateView):
 
     def get_context_data(self, *args, **kwargs):
         context = super(HomeTemplateView, self).get_context_data(*args, **kwargs)
+        context = {
+            'blog_list' : blogs, 
+        }
         return context
+    
+    def get(self, request):
+        form = ContactForm()
+        model = Contact
+        context = {
+            'form': form,
+        }
+        return render(request, 'home.html', context)
 
 
 class ContactView(CreateView):
