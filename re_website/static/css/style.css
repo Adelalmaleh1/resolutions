@@ -2413,11 +2413,7 @@ textarea {
 .post-title { }
 .post-content {padding-top: 50px; padding-right: 50px;}
 .post-header { }
-.post-block .btn{
-    display: inline-block; padding: 14px 30px; margin-bottom: 0; font-size: 13px; font-weight: 800; 
-        letter-spacing: 1px; line-height: 1.42857143; text-align: center; border: none; 
-        text-transform: uppercase; border-radius: 100px;font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
-}
+
 .post-block .btn-default {
     color: #fff; 
     background-color: #5BB12F;
@@ -2431,13 +2427,13 @@ textarea {
  /* padding-top: 30px;  */
 }
 .box > .icon { text-align: center; position: relative; }
-.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #333; vertical-align: middle; }
-.box > .icon:hover > .image { background: #3392d2; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #333; vertical-align: middle; padding-top: 15px;}
+.box > .icon:hover > .image { background: #5BB12F; }
 .box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
 .box > .icon:hover > .image > i { color: white !important; }
 .box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
 .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
-.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; padding-top: 20px; }
 .box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
 .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
 .box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
