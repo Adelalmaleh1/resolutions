@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-header {
     background: url(../images/page-header.jpg) no-repeat;
     padding: 70px 0;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .page-header h1 {
@@ -1391,7 +1391,7 @@ h3.pricing-title {
 }
 .testimonial-item h4 {
     margin-left: 25%;
-    margin-right: 20%;
+    margin-right: 25%;
     color: #5BB12F;
     font-size: 25px;
 }
@@ -1404,6 +1404,7 @@ h3.pricing-title {
     text-align: left;
     color: #fff;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .testimonial-item h3 {
@@ -1420,16 +1421,9 @@ h3.pricing-title {
     margin-right: 20%;
     color: #fff;
     font-size: 20px;
+    font-weight: bold;
 }
-.testimonial-item img {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-}
+
 
 
 .testimonial-item .desgnation {
@@ -2269,7 +2263,7 @@ textarea {
     background-size: cover;
   }
   .contact_help{  
-    color: #ffffff;
+    color: #fff;
     font-family: Avenir;
     padding-top: 0px;
     text-align:left;
@@ -2277,7 +2271,7 @@ textarea {
     margin-left: 50px;
   }
   .contact_form{
-    color: #ffffff;
+    color: #fff;
     margin-top: 0px;
     font-family: Avenir;
     padding-top: 0px;

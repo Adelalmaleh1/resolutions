@@ -1,21 +1,25 @@
-from django.views.generic import TemplateView, CreateView
 from django.shortcuts import render
-from .forms import ContactForm
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
+from django.views.generic import TemplateView, CreateView
 from .models import Contact
+from .forms import ContactForm
 from django.core.urlresolvers import reverse
 
 
-class HomeTemplateView(TemplateView):
-    template_name = 'home.html'
+__all__ = (
+    'HomeTemplateView,'
+    'ContactView,'
+    'FinancialView,'
+    'ValuerView,'
+    'AnalysisView,'
 
-    def get_context_data(self, *args, **kwargs):
-        context = super(HomeTemplateView, self).get_context_data(*args, **kwargs)
-        context = {
-            'blog_list' : blogs, 
-        }
-        return context
     
+)
+class HomeTemplateView(TemplateView):
+    template_name = 'home.html'   
+    def get_context_data(self, **kwargs):
+        context = super(HomeTemplateView, self).get_context_data(**kwargs)
+        return context
     def get(self, request):
         form = ContactForm()
         model = Contact
