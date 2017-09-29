@@ -46,8 +46,19 @@ class ContactView(CreateView):
 class FinancialView(TemplateView):
     template_name = 'financial.html'
 
-class ValuerView(TemplateView):
+class ValuerView(CreateView):
     template_name = 'valuer.html'
+    form = ContactForm()
+    fields = (
+        'name',
+        'email',
+        'phone',
+        'organisation',
+        'content',
+        )
+    model = Contact
+    def get_success_url(self):
+        return reverse('valuer')
 
 class AnalysisView(TemplateView):
     template_name = 'analysis.html'

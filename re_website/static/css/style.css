@@ -29,10 +29,11 @@ ul, ol {
 ul {
     padding: 0;
     margin: 0;
+    
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #444;
     line-height: 1.5em;
@@ -140,7 +141,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* End Section Title */
 
+#valuer-background{
+    background: url(../images/Quote_finance.jpg) no-repeat;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    background-size: cover;
+    margin-bottom: 30px;   
+  }
 
+  
 .page-header {
     background: url(../images/page-header.jpg) no-repeat;
     padding: 70px 0;
@@ -1217,7 +1226,6 @@ and (min-width : 551px){
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     width: 100px;
-
     height: 100px;
     margin: 0 0 24px;
     line-height: 100px;
@@ -1242,11 +1250,20 @@ and (min-width : 551px){
     font-weight: 400;
     margin: 0 0 14px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
   }
   
-
+.services-post ul{
+    margin-left: 27%;
+    list-style-type: square;
+    text-align: left;
+    margin-right: 10%;
+    font-size: 17px;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.5em;
+}
 
 /*----------------------------------------------------------*/
 /* Start Fun Facts Counter Section
@@ -2295,3 +2312,155 @@ textarea {
     
     margin-left: 0px;
   }
+
+  #valuer-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#valuer-section p{
+    padding-bottom: 20px;
+}
+
+.valuer-post {
+        text-align: center;
+      margin-bottom: 80px;
+  }
+  .valuer-post a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 24px;
+    line-height: 100px;
+    color: #111;
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #111;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .valuer-post a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    width: 100px;
+    height: 100px;
+    margin: 0 0 24px;
+    line-height: 100px;
+    color: #111;
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #111;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .valuer-post:hover a,
+  .valuer-post a.active {
+    background: #5BB12F;
+    color: #ffffff;
+    border:2px solid transparent;
+  }
+  .valuer-post h2 {
+    color: #111;
+    font-weight: 400;
+    margin: 0 0 14px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  
+.valuer-post ul{
+    margin-left: 27%;
+    list-style-type: square;
+    text-align: left;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.5em;
+}
+
+
+/*------------------------
+ 10. Blog pages
+--------------------------*/
+.content { }
+.sidebar { }
+.post-block, .post-quote{ position: relative; background-color: #f4f1ec; padding: 30px; border-radius: 10px;  margin-bottom: 30px;}
+
+/*-- use for thumbnail --*/
+.post-holder { position: relative; margin-bottom: 30px; }
+/*-- for single post page --*/
+.post-img { position: relative; }
+.post-img img{border-radius: 10px; width: 100%;}
+.post-title { }
+.post-content {padding-top: 50px; padding-right: 50px;}
+.post-header { }
+.post-block .btn{
+    display: inline-block; padding: 14px 30px; margin-bottom: 0; font-size: 13px; font-weight: 800; 
+        letter-spacing: 1px; line-height: 1.42857143; text-align: center; border: none; 
+        text-transform: uppercase; border-radius: 100px;font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+.post-block .btn-default {
+    color: #fff; 
+    background-color: #5BB12F;
+}
+.second-portion
+{
+  margin-top:50px; 
+  
+}
+.box{
+ /* padding-top: 30px;  */
+}
+.box > .icon { text-align: center; position: relative; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #333; vertical-align: middle; }
+.box > .icon:hover > .image { background: #3392d2; }
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon:hover > .image > i { color: white !important; }
+.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+.box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+.box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+.box .space { height: 30px; }
+
+@media only screen and (max-width: 768px)
+{
+    .contact-form
+    {
+        margin-top:25px; 
+    }
+
+    .btn-send
+    {
+        width: 100%;
+        padding:10px; 
+    }
+
+    .second-portion
+    {
+margin-top:25px; 
+
+    }
+}
+

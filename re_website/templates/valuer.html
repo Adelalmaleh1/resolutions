@@ -2,8 +2,169 @@
 {% load bootstrap_tags static %}
 {% block content %}
 
-
-
+    <section id="valuer-background" class="section text-center col-xs-12"> 
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <img src="{% static "images/logos.png" %}" style="width:230px;height:230px;">
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="white text-left">
+                    <br><br>
+                    <br>
+                    <h1>IMPROVE ACCURACY, CONTROLS AND EFFICIENCY OF YOUR VALUATION FIRM</h1>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="valuer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-xs-12">
+                    <p>VMS Business Edition is a cloud based end to end solutions designed for the management of the modern valuation practice. Manage workflows, search transactions, capture data and generate reports anytime, anywhere with improved accuracy, controls and efficiency.</p>                       
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="valuer-post">
+                        <a href="#"><i class="fa fa-skyatlas"></i></a>
+                        <h2>ACCURACY</h2>
+                        <ul>
+        					<li>
+        						Intuitively search the very latest transaction data
+        					</li>
+        					<li>
+        						Streamlined and data linked calculation models
+        					</li>
+        				</ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="valuer-post">
+                        <a href="#"><i class="fa fa-paper-plane-o"></i></a>
+                        <h2>CONTROLS</h2>
+                        <ul>
+                            <li>
+                                Automated Risk management 
+                            </li>
+                            <li>
+                                Built-In quality control checks 
+                            </li>
+                            <li>
+                                Cutting edge business analytics 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="valuer-post">
+                        <a href="#"><i class="fa fa-foursquare"></i></a>
+                        <h2>EFFICIENCY</h2>
+                        <ul>
+                            <li>
+                                Intuitive In-Field Data Capture 
+                            </li>
+                            <li>
+                                Automatic Report Generation 
+                            </li>
+                            <li>
+                                Automatic Report Generation 
+                            </li>
+                            <li>
+                                Search, monitor and retrieve work in progress 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="post-block">
+                        <div class="row ">
+                            <!-- post block -->
+                            <div class="col-md-6">
+                                <div class="post-img">
+                                    <img src="{% static 'images/post-img.png' %}" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="post-content">
+                                    <h2>TRANSACTION DATA</h2><br>
+                                    <p>VMS Business Edition includes the very latest transaction data sourced from JPPH. Using a proprietary algorithm, the data is cleaned and sorted for effective search and visualisation purposes.</p>
+                                    <a href="#" class="btn btn-default">DATA</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+            <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                <h2>Trusted By</h2>
+            </div>                        
+        </div>      
+        <div id="client-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="client-box">
+                            <ul class="client-list">
+                                <li><a href="#"><img src="{% static 'images/clients/Knight-Frank1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="{% static 'images/clients/ipp.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="{% static 'images/clients/logo-rh1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="{% static 'images/clients/NTL1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="{% static 'images/clients/mac.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container second-portion">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-4 col-sm-offset-4">
+                        <div class="box">							
+                            <div class="icon">
+                                <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <div class="info">
+                                    <h3 class="title">Any Enquiries</h3>
+                                        <div class="row">
+                                            <h1 class="text-center"><a href="#myModal" role="button" class="btn btn-info btn-lg" data-toggle="modal">Contact Us</a></h1>
+                                        </div>
+                                    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                            <h3 id="myModalLabel" style="color:black">We'd Love to Hear From You</h3>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action= "" method="POST">
+                                                {% csrf_token %}
+                                                {{ form|as_bootstrap_inline }}
+                                                <button type="submit" class="save btn btn-default">Submit</button>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="save btn btn-default" style="color:black" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space"></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
 
 
 {% endblock %}
