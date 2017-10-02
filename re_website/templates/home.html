@@ -338,9 +338,44 @@
         </div>
     </section>
     <!-- End Team Member Section -->
-        
-        
-        <!-- Start Portfolio Section -->
+    <section id="portfolio" class="portfolio-section-1">
+        <div class="container">
+            <div class="row">
+                <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                    <h2>Solutions</h2>
+                </div>    
+                
+                <div class="col-xs-12 col-md-4 section-container-spacer">
+                    <img src="{% static 'images/portfolio/img1.jpg' %}" class="img-responsive" alt="" />
+                    <h2>Financial Institutions</h2>
+                    <p>A complete end-to-end facilitator of the valuation process between financiers and valuers for the:</p>
+                    <ul>
+                        <li></i>New Valuations</li>
+                        <li></i>Automated Portfolio</li>
+                        <li></i>Revaluation</li>
+                    </ul>
+                    <a href="{% url 'financial' %}" class="btn btn-primary" title=""> Get in touch</a>
+                </div>
+                
+                <div class="col-xs-12 col-md-4 section-container-spacer">
+                    <img src="{% static 'images/portfolio/img3.jpg' %}" class="img-responsive" alt="" />
+                    <h2>Data Analysis</h2>
+                    <p>Gain insights into the real estate market using the very latest data and our cutting edge analytics solutions. </p>
+                    <a href="{% url 'analysis' %}" class="btn btn-primary" title=""> Get in touch</a>
+                </div>
+                
+                <div class="col-xs-12 col-md-4 section-container-spacer">
+                        <img src="{% static 'images/portfolio/img2.jpg' %}" class="img-responsive" alt="" />
+                    <h2>Valuers Property Professionals</h2>
+                    <p>Complete solution for the modern valuation firm.</p>
+                    <p>Search transactions, manage workflow, capture data and generate reports anytime, anywhere.</p>
+                    <a href="{% url 'valuer' %}" class="btn btn-primary" title=""> Get in touch</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>    
+        {% comment %} <!-- Start Portfolio Section -->
         <section id="portfolio" class="portfolio-section-1">
             <div class="container">
                 <div class="row">
@@ -401,10 +436,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> {% endcomment %}
         <!-- End Portfolio Section -->
 
-        <div id="contacts" class="section text-center col-xs-12">
+        {% comment %} <div id="contacts" class="section text-center col-xs-12">
             <div class="col-xs-12 col-sm-4">
                 <br><br><br>
                 <div class="contact_help">
@@ -444,10 +479,10 @@
                 </div>
             </div>
         </div>
-        
+         {% endcomment %}
       
         <!-- End Testimonial Section -->
-        <div class="footer-bs text-center col-xs-12" data-anchor="solutions">
+        <div class="footer-bs text-center col-xs-12">
             <div class="">
                 <div class="row">
                     <div class="col-md-3 footer-brand">
