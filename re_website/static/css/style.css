@@ -123,7 +123,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: none;
 }
 .section-trust {
-    margin-bottom: 0px;
+    color: #111;
+    font-size: 48px;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: none;
 }
 .section-trust h2{
     color: #111;
@@ -2273,33 +2276,37 @@ textarea {
 
 #contacts{
     background: url(../images/contact.jpg) no-repeat;
-    font-family: Avenir;
+    font-size: 48px;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
     padding-top: 27px;
     padding-bottom: 90px;
     margin-bottom: -40px;
     background-size: cover;
   }
   .contact_help{  
+    font-size: 48px;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: none;
+
     color: #fff;
-    font-family: Avenir;
     padding-top: 0px;
     text-align:left;
-    font-size: 40px;
     margin-left: 50px;
   }
   .contact_form{
     color: #fff;
     margin-top: 0px;
-    font-family: Avenir;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
     padding-top: 0px;
     text-align:left;
+    font-size: 48px;
     margin-left: 50px;
     letter-spacing: 1px;
   }
   .contact_form_valuer{
     color: #000;
     margin-top: 0px;
-    font-family: Avenir;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
     padding-top: 0px;
     text-align:left;
     /* margin-left: 40px; */
@@ -2308,9 +2315,12 @@ textarea {
   
   .text_contact{
     font-size: 17px;
-    font-family: Avenir;
-    
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
     margin-left: 0px;
+  }
+  .text_contact p {
+    color: #000;
+    padding-top: 10px;
   }
 
   #valuer-section {
@@ -2420,7 +2430,7 @@ textarea {
 }
 .second-portion
 {
-  margin-top:50px; 
+  margin-top:0px; 
   
 }
 .box{
