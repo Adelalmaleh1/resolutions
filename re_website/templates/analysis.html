@@ -1,4 +1,59 @@
 {% extends 'layout.html' %}
 {% load bootstrap_tags static %}
 {% block content %}
+
+
+    <section id="data-analysis" class="section text-center col-xs-12"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="gain white">
+                        <h1>
+                            <div class="text-left">
+                                    GAIN INSIGHTS TO <br> THE REAL ESTATE MARKET
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="valuer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-xs-12">
+                    <p>
+                        Drawing from an extensive database of actual transaction data, let us help you visualise and make sense of the real estate market.
+                        For research, content or to drive leads to your site - leverage our data and analytics to help drive your business.
+                    </p>                       
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="post-block">
+                        <div class="row ">
+                            <!-- post block -->
+                            <div class="col-md-6">
+                                <div class="post-img">
+                                    <img src="{% static 'images/post-img.png' %}" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="section-trust"><br>
+                                    <h2>TRANSACTION DATA</h2><br>
+                                    <p>VMS Business Edition includes the very latest transaction data sourced from JPPH. Using a proprietary algorithm, the data is cleaned and sorted for effective search and visualisation purposes.</p>
+                                    <a href="#" class="btn btn-success btn-lg">DATA</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
