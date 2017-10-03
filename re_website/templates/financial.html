@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 {% load bootstrap_tags static %}
 {% block content %}
-
+{% comment %} 
 <section id="testimonial-section">
     <div class="container">
         <div class="row">
@@ -86,8 +86,133 @@
             </div>
         </div>
     </div>
-</section>
+</section> {% endcomment %}
+<div class='container carousel'>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner text-center" role="listbox">
+            <div class="item active">
+                <div class="col-lg-8 pull-right">
+                        <img src="{% static 'images/financial1.png' %}">
+                </div>
+                <div class="col-lg-4">                            
+                        <br><h2>VMS Enterprise Edition <br>
         
+                    <div class="text-left">
+                        <p>
+                                A cloud base end-to-end facilitator of the entire valuation process between a Financier and Valuer.
+                        </p>
+                        <p>
+                                The System is designed to streamline and automate core functions through a centralised easy to use system.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item">
+                    <div class="col-lg-8 pull-right">
+                            <img src="{% static 'images/financial2.png' %}">
+                    </div>
+                    <div class="col-lg-4">                            
+                            <br><h2>Porfolio Revaluation <br>
+                            <small>Revalue entire portfolios instantly by leveraging the very latest transaction data and in depth analytics</small></h2>
+                        <div class="text-left">
+                            <p>
+                                The system is designed to extract information from an Excel file through the correspondence of specific column headings. This enables the system to provide a “Market Value Estimate” based on the Bank’s specific risk parameters.
+                            </p>
+                            <p>
+                                From the results derived or based on existing parameters, a request for indication from panel valuers can be both automatically or manually triggered for verification or test purposes.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            <div class="item">                    
+                <div class="col-lg-8 pull-right">
+                    <img src="{% static 'images/financial3.png' %}">
+                </div>
+                <div class="col-lg-4 ">                            
+                    <br><h2>Valuation Management<br>
+                        <small>Automate, streamline and manage the valuation process from indication to compliance checks.</small></h2>
+                        <p>
+                            <div class="black">
+                                <b>Indicative Value Check</b>
+                            </div>
+                            <ul>
+                                <li>
+                                    Get instant market value estimate - backed by up to data transaction data
+                                </li>
+                                <li>
+                                    Automatically request for indicative values from all panel valuers
+                                </li>
+                            </ul>
+                            <div class="black">
+                                <b>Process Controls</b>
+                            </div>
+                            <ul>
+                                <li>
+                                    Single point to order, track, manage and retrieve valuation reports
+                                </li>
+                                <li>
+                                    Standardised digitally signed, and un-editable valuation reports for all panel valuers
+                                </li>
+                            </ul>
+                            <div class="black">
+                                <b>Valuers Performance Management</b>
+                            </div>
+                            <ul>
+                                <li>
+                                    Intuitive web based interface for effective data entry and file attachments
+                                </li>
+                                <li>
+                                    Seamless synchronisation with VMS Business Edition (Subscription Service for Valuers)
+                                </li>
+                            </ul>
+                            <div class="black">
+                                <b>Risk Management</b>
+                            </div>
+                            <ul>
+                                <li>
+                                    Automated valuation report compliance checks
+                                </li>
+                                <li>
+                                    Automated quality assurance checks
+                                </li>
+                            </ul>
+                            <div class="black">
+                                <b>Panel Management</b> 
+                            </div>
+                            <ul>
+                                <li>
+                                    Effectively Manage and change panel valuers
+                                </li>
+                                <li>
+                                    Instantly manage and implement valuation policies to all panel value
+                                </li>
+                            </ul>
+                        </p> 
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>    
 
 {% endblock %}
 
