@@ -8,7 +8,7 @@
 					var settings = $.extend({
 						home: { latitude: posLatitude, longitude: posLongitude },
 						icon_url: $('#map').data('marker-img'),	
-						zoom: 15
+						zoom: 14
 					}, options );
 					
 					var coords = new google.maps.LatLng(settings.home.latitude, settings.home.longitude);
