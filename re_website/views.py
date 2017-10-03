@@ -63,3 +63,5 @@ class ValuerView(CreateView):
 class AnalysisView(TemplateView):
     template_name = 'analysis.html'
     
+class DataView(TemplateView):
+    template_name = 'data.html'

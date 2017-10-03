@@ -73,9 +73,6 @@
                                 <a class="active" href="{% url 'home' %}">Home</a>
                             </li>
                             <li>
-                                <a href="#about">About Us</a>
-                            </li>
-                            <li>
                                 <a href="#portfolio">Products</a>
                                 <ul class="dropdown">
                                     <li>
@@ -90,7 +87,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="portfolio.html">Portfolio</a>
+                                <a href="{% url 'data' %}">Data</a>
                             </li>
                             <li>
                                 <a href="blog.html">Blog</a>
@@ -99,6 +96,9 @@
                                         <a href="blog-item.html">Item Page</a>
                                     </li>
                                 </ul>
+                            <li>
+                                <a href="#about">About Us</a>
+                            </li>
                             </li>
                                 <li><a href="{% url 'contact' %}">Contact</a></li>
                             </li>
@@ -110,8 +110,6 @@
             <!-- End Header Logo & Naviagtion -->
             
         </header>
-        
-        
         <!-- Start Header Section -->
         <div class="banner">
             <div class="overlay">
@@ -506,7 +504,7 @@
                             <li><a href="{% url 'financial' %}">Financial Institutions</a></li>
                             <li><a href="{% url 'valuer' %}">Valuers <br>Property Professionals</a></li>
                             <li><a href="{% url 'analysis' %}">Data Analysis</a></li>
-                            <li> <a href="">Data</a></li> 
+                            <li> <a href="{% url 'data' %}">Data</a></li> 
                             <li><a href="{% url 'contact' %}">Contact Us</a></li> 
                         </ul>
                     </div>

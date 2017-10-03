@@ -1396,6 +1396,13 @@ h3.pricing-title {
     height: 500px;
 }
 
+.map-container {
+    position:relative
+}
+.contact-block-container {
+    background-color:#fff;padding:30px
+}
+@media (min-width:768px){.contact-block-container{position:absolute;top:10%;padding:20px;right:5%}}.contact-form-container{background-color:#fff}
 
 
 
@@ -2484,3 +2491,81 @@ margin-top:25px;
     }
 }
 
+
+
+.slider-area{
+    position: relative;
+    height: 630px
+}
+#bg-slider .item img{
+    width: 100%;
+    height: 630px
+}
+
+.slider-content{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: #FFF;
+    width: 100%;
+}
+.slider-content h2 {
+    font-size: 40px; 
+    margin-bottom: 20px;
+    text-transform: uppercase;color: rgba(255, 165, 0, 0.71);
+font-weight: 500;
+}
+.slider-content p {
+    font-size: 14px;
+    margin-bottom: 60px;
+    color: rgb(110, 110, 110);
+}
+
+.slider .owl-theme .owl-controls {
+    margin-top: 0px;
+    position: relative;
+    text-align: center;
+}
+.slider .owl-pagination {
+    bottom: 280px;
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    z-index: 9999;
+}
+.slider .owl-theme .owl-controls .owl-page span{
+    background: #FFC600
+}
+
+/* Top Header */
+.progress-thin{
+    height: 2px;
+}
+
+.header-connect{
+    padding-top: 10px;
+}
+.header-call p{
+    color: #666666;
+}
+.header-call p span{
+    margin-right: 15px;
+    font-weight: 300;
+}
+.header-call p span i{
+    margin-right: 4px;
+    font-size: 20px;
+    position: relative;
+    bottom: -3px;
+}
+.header-social ul{
+    padding-top: 5px
+}
+.header-social ul li a{
+    color: #666666;
+    font-size: 14px
+
+}
+.header-social ul li a:hover{
+    color: #FDC600
+}
