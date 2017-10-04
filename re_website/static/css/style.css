@@ -1793,7 +1793,7 @@ h1.post-title a {
 }
 
 .blog-post .post-meta li i {
-    color: #ff432e;
+    color: #67bb44;
     margin-right: 10px;
 }
 
@@ -1802,23 +1802,23 @@ h1.post-title a {
 }
 
 .blog-post a.btn-primary {
-    background: #ff432e;
-    border: 1px solid #ff432e;
+    background: #67bb44;
+    border: 1px solid #67bb44;
     font-weight: 300;
 }
 
 .pagination li a {
-    color: #ff432e;
+    color: #67bb44;
 }
 
 .pagination li a:hover,
 .pagination li a:focus {
-    color: #ff432e;
+    color: #67bb44;
 }
 
 .pagination li.active a {
-    background: #ff432e;
-    border-color: #ff432e;
+    background: #67bb44;
+    border-color: #67bb44;
 }
 
 .blog-body .pagination {
@@ -1862,7 +1862,7 @@ h1.post-title a {
     padding: 15px;
     background: #fff;
     font-size: 16px;
-    color: #ff432e;
+    color: #67bb44;
     border-radius: 3px;
     position: absolute;
     top: 45%;

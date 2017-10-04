@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views.generic import TemplateView, CreateView
-from .models import Contact
+from .models import Contact, Blog
 from .forms import ContactForm
 from django.core.urlresolvers import reverse
 
@@ -12,6 +12,7 @@ __all__ = (
     'FinancialView,'
     'ValuerView,'
     'AnalysisView,'
+    'BlogView,'
 
     
 )
@@ -65,3 +66,9 @@ class AnalysisView(TemplateView):
     
 class DataView(TemplateView):
     template_name = 'data.html'
+
+
+
+def blog_list(request):
+    blogs = Blog.objects.all()
+    return render(request, 'blog.html', {'blogs': blogs})

@@ -19,24 +19,25 @@
     <script src="{% static 'js/modernizrr.js' %}"></script>
 
 </head>
-<header class="clearfix">   
+<header class="clearfix">
+    <!-- Start  Logo & Naviagtion  -->
     <div class="navbar navbar-default navbar-top">
         <div class="container">
             <div class="navbar-header">
+                <!-- Stat Toggle Nav Link For Mobiles -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-
-                <a href="{% url 'home' %}"><img src="{% static 'images/re_logo.png' %}" class="navbar-brand" alt="images"></a>
+                <!-- End Toggle Nav Link For Mobiles -->
+                
+                <img src="{% static 'images/re_logo.png' %}" class="navbar-brand" alt="images">
             </div>
             <div class="navbar-collapse collapse">
+                
                 <!-- Start Navigation List -->
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{% url 'home' %}">Home</a>
-                    </li>
-                    <li>
-                        <a href="{% url 'home' %}#about">About Us</a>
+                        <a class="" href="{% url 'home' %}">Home</a>
                     </li>
                     <li>
                         <a href="#portfolio">Products</a>
@@ -53,22 +54,28 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="portfolio.html">Portfolio</a>
+                        <a href="{% url 'data' %}">Data</a>
                     </li>
                     <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="{% url 'blog' %}">Blog</a>
                         <ul class="dropdown">
                             <li>
                                 <a href="blog-item.html">Item Page</a>
                             </li>
                         </ul>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
                     </li>
                         <li><a href="{% url 'contact' %}">Contact</a></li>
                     </li>
                 </ul>
+                <!-- End Navigation List -->
             </div>
         </div>
     </div>
+    <!-- End Header Logo & Naviagtion -->
+    
 </header>
 {% block content %}
 {% endblock %} 
