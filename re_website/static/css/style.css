@@ -33,7 +33,7 @@ ul {
 }
 
 p {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
     color: #444;
     line-height: 1.5em;
@@ -637,6 +637,7 @@ iframe {
 
 .about-list li i {
     margin-right: 10px;
+    font-size: 19px;
 }
 
 
@@ -2427,8 +2428,10 @@ textarea {
     margin-left: 5%;
     padding-bottom: 10px;
     list-style-type: square;
-    font-size: 20px;
-    font-size: 17px;
+    font-size: 19px;
+}
+.read-more{
+    padding-top: 12px;
 }
 /*------------------------
  10. Blog pages
@@ -2491,22 +2494,41 @@ margin-top:25px;
     }
 }
 
-.carousel {padding-bottom: 25px}
-.carousel img{padding-top: 20px;}
-.carousel h2 {color: #0072b5; padding-top: 10px; padding-bottom: 20px;}
-.carousel h2 small{color: #289bde;}
-.carousel col-lg-4 p {text-align: center;}
-.carousel .financial {
+.carousel {
+    padding-bottom: 25px
+}
 
+.carousel img {
+    padding-top: 20px;
+}
+.carousel h2 {
+    color: #000; 
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+.carousel h4 {
+    color: #5BB12F;
+    padding-top: 10px; 
+    /* font-weight: bold; */
+    padding-bottom: 20px; 
+    text-align: left;
+}
+.carousel .black{
+    text-align: center;
+    margin-bottom: -4px;
+}
+.carousel .vms-Enterprise {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.5em;
+}
+.carousel col-lg-4 p {
+    text-align: center;
 }
 .carousel ul {
-    /* margin-left: 32%; */
     list-style-type: square;
     padding-left: 10px;
     text-align: left;
-    /* text-align: left;
-    margin-right: 20%;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold; */
 }

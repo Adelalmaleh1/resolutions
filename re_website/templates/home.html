@@ -352,14 +352,18 @@
                         <li></i>Automated Portfolio</li>
                         <li></i>Revaluation</li>
                     </ul>
-                    <a href="{% url 'financial' %}" class="btn btn-primary" title=""> Read More</a>
+                    <div class=text-left>
+                        <a href="{% url 'financial' %}" class="btn btn-primary" title=""> Read More</a>
+                    </div>
                 </div>
                 
                 <div class="col-xs-12 col-md-4 section-container-spacer">
                     <img src="{% static 'images/portfolio/img3.jpg' %}" class="img-responsive" alt="" />
                     <h2>Data Analysis</h2>
                     <p>Gain insights into the real estate market using the very latest data and our cutting edge analytics solutions. </p>
-                    <a href="{% url 'analysis' %}" class="btn btn-primary" title=""> Read More</a>
+                    <div class="text-left read-more"><br><br><br>
+                        <a href="{% url 'analysis' %}" class="btn btn-primary" title=""> Read More</a>
+                    </div>
                 </div>
                 
                 <div class="col-xs-12 col-md-4 section-container-spacer">
@@ -367,7 +371,9 @@
                     <h2>Valuers Property Professionals</h2>
                     <p>Complete solution for the modern valuation firm.</p>
                     <p>Search transactions, manage workflow, capture data and generate reports anytime, anywhere.</p>
-                    <a href="{% url 'valuer' %}" class="btn btn-primary" title=""> Read More</a>
+                    <div class="text-left"><br><br>
+                        <a href="{% url 'valuer' %}" class="btn btn-primary" title=""> Read More</a>
+                    </div>
                 </div>
                 
             </div>
@@ -538,7 +544,7 @@
                     <div class="col-sm-offset-0">
                         <div class="copyright">
                             <p style="color: #fff"> <i class="fa fa-copyright" aria-hidden="true"></i>                            
-                                Copyright 2016 Valuation Management System. All Rights Reserved. Valuation Management System (VMS) is a product of Real Estate Solutions Sdn Bhd 
+                                Copyright 2017 Valuation Management System. All Rights Reserved. Valuation Management System (VMS) is a product of Real Estate Solutions Sdn Bhd 
                             </p>
                         </div>
                     </div>
