@@ -1,0 +1,48 @@
+{% extends 'layout.html' %}
+{% load bootstrap_tags static %}
+{% block content %}
+{% comment %} {% for blog in blogs %}
+{{ blog.title }} 
+{{ blog.text }} 
+{% endfor %} {% endcomment %}
+
+<div class="container">
+        <div class="row">
+            
+            <!-- Start Blog Body Section -->
+            <div class="col-md-8 blog-body">
+                {% for blog in blogs %}
+                <!-- Start Blog post -->
+                <div class="blog-post">
+                    <h1 class="post-title"><a href="#">{{ blog.title }}</a></h1>
+                    <ul class="post-meta">
+                        <li><i class="fa fa-clock-o"></i>{{ blog.created_date|date:"d F Y" }}</li>
+                    </ul>
+                    
+                    <p class="post-content">{{ blog.text }}</p>
+                    
+                    <a href="" class="btn btn-primary" title=""> Read More...</a>
+                </div>
+                {% endfor %}
+                
+                <!-- Start Pagination -->
+                <nav>
+                    <ul class="pagination">
+                        <li class="disabled"><a href="#" aria-label="Start">Start</a></li>
+                        <li class="disabled"><a href="#" aria-label="Previous">Prev</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">Next</a></li>
+                        <li><a href="#">End</a></li>
+                    </ul>
+                </nav>
+                <!-- End Pagination -->
+                
+            </div>
+            <!-- End Blog Body Section -->
+        
+        </div>
+    </div>
+
+    
+{% endblock %}
