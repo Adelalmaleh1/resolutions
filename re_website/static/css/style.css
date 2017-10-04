@@ -159,6 +159,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 70px 0;
     margin-top: 0px;
 }
+.blog-header {
+    background: url(../images/blog-header.jpg) no-repeat;
+    padding: 70px 0;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    margin-top: 0px;
+}
 
 #data-analysis{
     background: url(../images/data_transactions.png) no-repeat;
@@ -2446,7 +2454,7 @@ textarea {
 .post-img { position: relative; }
 .post-img img{border-radius: 10px; width: 100%;}
 .post-title { }
-.post-content {padding-top: 50px; padding-right: 50px;}
+.post-content {padding-top: 0px; padding-right: 50px;}
 .post-header { }
 
 .post-block .btn-default {

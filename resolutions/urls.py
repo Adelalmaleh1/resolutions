@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from re_website.views import HomeTemplateView, ContactView, FinancialView, ValuerView, AnalysisView,DataView, blog_list
+from re_website.views import HomeTemplateView, ContactView, FinancialView, ValuerView, AnalysisView,DataView, blog_list, BlogCreateView
 
 urlpatterns = [
     url(r'^$', HomeTemplateView.as_view(), name='home'),
@@ -27,5 +27,6 @@ urlpatterns = [
     url(r'^analysis/$', AnalysisView.as_view(), name='analysis'),
     url(r'^data/$', DataView.as_view(), name='data'),
     url(r'^blog/$', blog_list, name='blog'),
+    url(r'^blog/new/$', BlogCreateView.as_view(), name='blog_new'),
     url(r'^admin/', admin.site.urls),
 ]

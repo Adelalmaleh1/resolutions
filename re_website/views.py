@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views.generic import TemplateView, CreateView
 from .models import Contact, Blog
-from .forms import ContactForm
+from .forms import ContactForm, BlogForm
 from django.core.urlresolvers import reverse
 
 
@@ -67,7 +67,12 @@ class AnalysisView(TemplateView):
 class DataView(TemplateView):
     template_name = 'data.html'
 
-
+class BlogCreateView(CreateView):
+    template_name = 'create_blog.html'
+    model = Blog
+    fields = ('title', 'text')
+    def get_success_url(self):
+        return reverse('blog')
 
 def blog_list(request):
     blogs = Blog.objects.all()

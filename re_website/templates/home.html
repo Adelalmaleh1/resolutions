@@ -93,7 +93,10 @@
                                 <a href="{% url 'blog' %}">Blog</a>
                                 <ul class="dropdown">
                                     <li>
-                                        <a href="blog-item.html">Item Page</a>
+                                        <a href="{% url 'blog' %}">Show Articles</a>
+                                    </li>
+                                    <li>
+                                        <a href="{% url 'blog_new' %}">New Article</a>
                                     </li>
                                 </ul>
                             <li>

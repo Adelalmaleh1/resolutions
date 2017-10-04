@@ -1,0 +1,34 @@
+
+{% extends 'layout.html' %}
+{% load bootstrap_tags static %}
+{% block content %}
+
+<div class="blog-header">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Blog</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="contact_form_valuer text-center">
+        <div class="panel panel-default well">
+            <div class="panel-body">
+                <form action="" method="POST" class="form-horizontal track-event-form bv-form" data-goaltype="”General”" data-formname="”ContactUs”" method="post" id="contact-us-all" novalidate="novalidate">
+                    {% csrf_token %}
+                    {{ form|as_bootstrap }}
+                    <button id="contacts-submit" type="submit" class="btn btn-default">Submit</button>
+                </form>  
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+{% endblock %}
