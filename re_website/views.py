@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views.generic import TemplateView, CreateView, DetailView
 from .models import Contact, Blog
@@ -65,8 +66,16 @@ class BlogCreateView(CreateView):
         return reverse('blog')
 
 def blog_list(request):
-    blogs = Blog.objects.all()
-    return render(request, 'blog.html', {'blogs': blogs})
+    blog_list = Blog.objects.all()
+    paginator = Paginator(blog_list, 2) # Show 25 contacts per page
+    page = request.GET.get('page')
+    try:
+        blog = paginator.page(page)
+    except PageNotAnInteger:
+        blog = paginator.page(1)
+    except EmptyPage:
+        blog = paginator.page(paginator.num_pages)
+    return render(request, 'blog.html', {'blogs': blog})
 
 class BlogDetailView(DetailView):
     model = Blog
