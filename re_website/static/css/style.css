@@ -1797,6 +1797,12 @@ h1.post-title a {
 .blog-post .post-meta li a {
     color: #5c5c5c;
 }
+.solid {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    margin-right: 380px;
+    margin-top: 30px;}
 
 .blog-post .post-meta li a:hover {
     color: #ff432e;

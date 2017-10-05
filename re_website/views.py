@@ -1,21 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
-from django.views.generic import TemplateView, CreateView
+from django.views.generic import TemplateView, CreateView, DetailView
 from .models import Contact, Blog
 from .forms import ContactForm, BlogForm
 from django.core.urlresolvers import reverse
 
 
-__all__ = (
-    'HomeTemplateView,'
-    'ContactView,'
-    'FinancialView,'
-    'ValuerView,'
-    'AnalysisView,'
-    'BlogView,'
-
-    
-)
 class HomeTemplateView(TemplateView):
     template_name = 'home.html'   
     def get_context_data(self, **kwargs):
@@ -77,3 +67,7 @@ class BlogCreateView(CreateView):
 def blog_list(request):
     blogs = Blog.objects.all()
     return render(request, 'blog.html', {'blogs': blogs})
+
+class BlogDetailView(DetailView):
+    model = Blog
+    template_name = 'blog_details.html'
