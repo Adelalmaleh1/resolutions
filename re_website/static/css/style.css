@@ -126,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-trust {
     color: #111;
     font-size: 48px;
+    padding-top: 80px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
 }
@@ -601,6 +602,7 @@ img.navbar-brand {
 
 #about {
     padding-bottom: 80px;
+    padding-top: 80px;
     //background: url(../images/parallax/bg-01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -2469,13 +2471,13 @@ textarea {
  /* padding-top: 30px;  */
 }
 .box > .icon { text-align: center; position: relative; }
-.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #333; vertical-align: middle; padding-top: 15px;}
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 38px; border-radius: 50%; background: #333; vertical-align: middle; padding-top: 15px;}
 .box > .icon:hover > .image { background: #5BB12F; }
-.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; padding-top: -40px;}
 .box > .icon:hover > .image > i { color: white !important; }
 .box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
 .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
-.box > .icon > .info > h3.title { font-family: 'PT Sans Narrow', Arial, sans-serif;,sans-serif !important; font-size: 17px; color: #222; font-weight: 500; padding-top: 20px; }
+.box > .icon > .info > h3.title { font-family: 'PT Sans Narrow', Arial, sans-serif;,sans-serif !important; font-size: 20px; color: #222; font-weight: 500; padding-top: 20px; }
 .box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
 .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
 .box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
@@ -2523,7 +2525,8 @@ margin-top:25px;
 }
 .carousel .black{
     text-align: center;
-    margin-bottom: -4px;
+    font-size: 18px;
+    padding: 10px;
 }
 .carousel .vms-Enterprise {
     padding-top: 10px;
