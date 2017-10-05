@@ -1,5 +1,27 @@
 {% extends 'layout.html' %}
 {% load bootstrap_tags static %}
 {% block content %}
-
+    <section id="dataPage" class="section">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h1><b>DATA</b></h1>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="font">
+                        <div class="text-left"><br>
+                            <p>Data is sourced from Jabatan Penilaian dan Perkhidmatan Harta (JPPH) a Department under the Ministry of Finance, Government of Malaysia.</p>
+                        </div>
+                        <div class="text-left">
+                            <p>Data sourced represents a combination of primary and secondary transactions recorded upon payment of stamp duty.</p>
+                        </div>
+                        <div class="text-left">
+                            <p>Using a proprietary algorithm, the data is cleaned and sorted for effective search and visualisation purposes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <img src="{% static 'images/maps.png' %}">
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
