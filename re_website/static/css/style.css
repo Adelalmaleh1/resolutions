@@ -14,9 +14,7 @@ body {
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
     text-rendering: optimizeLegibility !important;
-    font-smoothing: antialiased !important;
     vertical-align: baseline;
-}
 }
 strong, b {
 	font-weight: 600;
@@ -138,7 +136,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title p {
-    //padding-bottom: 60px;
     color: #111;
     letter-spacing: 1px;
     font-size: 18px;
@@ -205,14 +202,10 @@ h1, h2, h3, h4, h5, h6 {
 	color: #aaa;
 }
 
-.top-bar .contact-details {
-    //border-left: 1px solid #f2f2f2;
-    //padding-top: 8px;
-}
+
 .top-bar .contact-details li {
 	display: inline-block;
     padding: 5px 15px;
-    //font-size: 18px;
 	line-height: 32px;
     border-left: 1px solid #f2f2f2;
 }
@@ -345,7 +338,6 @@ ul.social-list li a:hover i {
 
 .navbar-brand {
 	position: relative;
-	//padding: 27px 0;
     padding-top: 0;
 	margin: 0!important;
 	transition: all 0.3s ease-in-out;
@@ -404,7 +396,6 @@ img.navbar-brand {
 	border-top: 2px solid #67bb44;
     color: #fff;
     background: #67bb44;
-    //padding: 25px 15px 30px;
 }
 
 .navbar-default .navbar-nav > li > a i {
@@ -454,7 +445,6 @@ img.navbar-brand {
     font-size: 14px;
     padding: 10px 12px;
     text-decoration: none;
-    //text-transform: uppercase;
     transition: padding 0.2s ease-in-out;
     -moz-transition: padding 0.2s ease-in-out;
     -webkit-transition: padding 0.2s ease-in-out;
@@ -603,7 +593,6 @@ img.navbar-brand {
 #about {
     padding-bottom: 80px;
     padding-top: 0px;
-    //background: url(../images/parallax/bg-01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -755,7 +744,6 @@ iframe {
 }
 
 .progress {
-  //background: #fff;
   overflow: visible;
   height: 5px;
   margin-bottom: 10px;
@@ -912,16 +900,6 @@ iframe {
     overflow: hidden;
 }
 
-#team-section .section-title h2 {
-    //color: #fff;
-}
-.team-text{
-    
-}
-#team-section .section-title p {
-    //color: #fff;
-}
-
 .team-member {
     position: relative;
     overflow: hidden;
@@ -1050,7 +1028,6 @@ iframe {
 .portfolio-section-2 {
     padding-top: 80px;
     padding-bottom: 120px;
-    //background: #f7f7f7;
 }
 
 .portfolio-section-3 {
@@ -1165,7 +1142,6 @@ and (min-width : 551px){
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -o-border-radius: 100%;
-    //background: #fff;
     color: #fff;
     position: absolute;
     top: 70%;
@@ -1343,7 +1319,6 @@ and (min-width : 551px){
     text-transform: uppercase;
     text-align:center;
     line-height:80px;
-    //font-family: 'Oswald', sans-serif;
 }
 
 
@@ -1648,9 +1623,6 @@ h3.pricing-title {
 }
 
 
-.footer-social ul.social-list li {
-    /* padding-right: 2px; */
-}
 
 
 .footer-social ul.social-list li a i {
@@ -1909,11 +1881,6 @@ h1.post-title a {
 .single-blog-post h1.post-title a {
     color: #5c5c5c;
 }
-
-.single-blog-post .post-meta {
-    //margin-bottom: 20px;
-}
-
 .single-blog-post .post-meta li {
     display: inline-block;
     padding-right: 5px;
@@ -1946,7 +1913,6 @@ h1.post-title a {
 }
 
 .single-blog-post p.post-content {
-    //margin-bottom: 30px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -2220,7 +2186,6 @@ h1.post-title a {
 /***********************************/
 
 .contact {
-    //background: #f9f9f9;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -2452,8 +2417,6 @@ textarea {
 /*------------------------
  10. Blog pages
 --------------------------*/
-.content { }
-.sidebar { }
 .post-block, .post-quote{ position: relative; background-color: #f5f5f5; padding: 30px; border-radius: 10px;  margin-bottom: 30px;}
 
 /*-- use for thumbnail --*/
@@ -2461,9 +2424,7 @@ textarea {
 /*-- for single post page --*/
 .post-img { position: relative; }
 .post-img img{border-radius: 10px; width: 100%;}
-.post-title { }
 .post-content {padding-top: 0px; padding-right: 50px;}
-.post-header { }
 
 .post-block .btn-default {
     color: #fff; 
@@ -2473,9 +2434,7 @@ textarea {
   margin-top:0px; 
   
 }
-.box{
- /* padding-top: 30px;  */
-}
+
 .box > .icon { text-align: center; position: relative; }
 .box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 38px; border-radius: 50%; background: #333; vertical-align: middle; padding-top: 15px;}
 .box > .icon:hover > .image { background: #5BB12F; }

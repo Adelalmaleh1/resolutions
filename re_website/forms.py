@@ -5,13 +5,13 @@ from .models import Contact, Blog
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
-        fields = ['name', 'email', 'phone', 'organisation', 'content']
+        fields = ['name', 'email', 'phone', 'organization', 'content']
 
         required = {
             'name': True,
             'email': True,
             'phone': True,
-            'organisation': True,
+            'organization': True,
             'content': True
             }
 class BlogForm(forms.ModelForm):
