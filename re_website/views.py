@@ -66,7 +66,7 @@ class BlogCreateView(CreateView):
         return reverse('blog')
 
 def blog_list(request):
-    blog_list = Blog.objects.all()
+    blog_list = Blog.objects.all().order_by('-created_date') 
     paginator = Paginator(blog_list, 2) # Show 25 contacts per page
     page = request.GET.get('page')
     try:
