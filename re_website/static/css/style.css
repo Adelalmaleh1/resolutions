@@ -602,7 +602,7 @@ img.navbar-brand {
 
 #about {
     padding-bottom: 80px;
-    padding-top: 80px;
+    padding-top: 0px;
     //background: url(../images/parallax/bg-01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
