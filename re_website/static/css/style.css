@@ -88,8 +88,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:hover {
     background: transparent;
-    border-color: #ff432e;
-    color: #ff432e;
+    border-color: #67bb44;
+    color: #6d6e70;
 }
 
 .btn-cancel {
@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../images/blog-header.jpg) no-repeat;
     padding: 70px 0;
     color: #fff;
+    background-size: cover;
     font-size: 18px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     margin-top: 0px; 
