@@ -9,6 +9,7 @@ body {
 	font-family: 'PT Sans Narrow', Arial, sans-serif;
 	font-size: 16px;
     color: #111;
+    background-color: #f2fffc;
     line-height: 21px;
 /*	font-weight: 300;*/
     -webkit-font-smoothing: antialiased !important;
@@ -33,7 +34,7 @@ ul {
 p {
     font-size: 19px;
     font-weight: 400;
-    color: #444;
+    color: #6d6e70;
     line-height: 1.5em;
 }
 
@@ -45,7 +46,7 @@ a {
 }
 
 a:hover {
-    color: #444;
+    color: #6d6e70;
 }
 
 a, 
@@ -68,7 +69,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: none;
     margin-top: 0;
     margin-bottom: 0;
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 80px;
 }
 .section-title h2{
-    color: #111;
+    color: #6d6e70;
     font-size: 48px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
@@ -124,19 +125,21 @@ h1, h2, h3, h4, h5, h6 {
 .section-trust {
     color: #111;
     font-size: 48px;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
 }
 .section-trust h2{
-    color: #111;
+    color: #6d6e70;
     font-size: 48px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
 }
-
+.section-trust p {
+    color: #6d6e70;
+}
 .section-title p {
-    color: #111;
+    color: #6d6e70;
     letter-spacing: 1px;
     font-size: 18px;
     font-weight: 300;
@@ -168,15 +171,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .jpph{
     background: url(../images/blog-header.jpg) no-repeat;
-    padding-top: 100px;
-    padding-bottom: 250px;
-    background-size: cover;
-    margin-bottom: 30px;   
+    padding: 70px 0;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    margin-top: 0px; 
 }
 
 #data-analysis{
     background: url(../images/data_transactions.png) no-repeat;
-    padding-top: 250px;
+    padding-top: 300px;
     padding-bottom: 60px;
     background-size: cover;
     margin-bottom: 30px;   
@@ -631,18 +635,22 @@ iframe {
     margin-left: 20px;
     margin-right: 20px;
 }
-
+.about-text p {
+    color: #6d6e70;
+}
 .about-list h4 {
     margin-top: 30px;
+    color: #6d6e70;
     margin-bottom: 10px;
 }
 
 .about-list li {
     margin-bottom: 5px;
-    color: #444;
+    color: #6d6e70;
 }
 
 .about-list li i {
+    color: #6d6e70;
     margin-right: 10px;
     font-size: 19px;
 }
@@ -704,7 +712,7 @@ iframe {
 }
 
 .panel-title a.collapsed {
-	color: #444;
+	color: #6d6e70;
 }
 
 .panel-title a.collapsed:hover {
@@ -1273,7 +1281,7 @@ and (min-width : 551px){
     margin-right: 10%;
     font-size: 17px;
     font-weight: 400;
-    color: #444;
+    color: #6d6e70;
     line-height: 1.5em;
 }
 
@@ -1390,6 +1398,9 @@ h3.pricing-title {
     height: 500px;
 }
 
+.google-map h3{
+    color: #6d6e70;
+}
 .map-container {
     position:relative
 }
@@ -1750,6 +1761,7 @@ h3.pricing-title {
 
 h1.post-title {
     font-size: 24px;
+    color: #6d6e70;
     font-weight: 400;
     line-height: 110%;
     padding: 20px 0 20px 0;
@@ -1795,6 +1807,7 @@ h1.post-title a {
 
 .blog-post p.post-content {
     margin-bottom: 30px;
+    color: #6d6e70;
 }
 
 .blog-post a.btn-primary {
@@ -1802,7 +1815,9 @@ h1.post-title a {
     border: 1px solid #67bb44;
     font-weight: 300;
 }
-
+.current {
+    color: #6d6e70;
+}
 .pagination li a {
     color: #67bb44;
 }
@@ -2313,6 +2328,7 @@ textarea {
 
 #valuer-section p{
     padding-bottom: 20px;
+    color: #6d6e70;
 }
 
 .valuer-post {
@@ -2371,7 +2387,7 @@ textarea {
     border:2px solid transparent;
   }
   .valuer-post h2 {
-    color: #111;
+    color: #6d6e70;
     font-weight: 400;
     margin: 0 0 14px;
     text-transform: uppercase;
@@ -2386,7 +2402,7 @@ textarea {
     margin-right: 10%;
     font-size: 18px;
     font-weight: 400;
-    color: #444;
+    color: #6d6e70;
     line-height: 1.5em;
 }
 
@@ -2394,16 +2410,15 @@ textarea {
     margin-bottom:30px
 }
 .section-container-spacer h2{
-    color: #111;
+    color: #6d6e70;
     padding-top: 20px;
-    font-weight: 400;
+    font-weight: 900;
     margin: 0 0 14px;
     text-transform: uppercase;
     font-size: 17px;
-    font-weight: 400;
 }
 .section-container-spacer ul{
-    color: #444;
+    color: #6d6e70;
     margin-left: 5%;
     padding-bottom: 10px;
     list-style-type: square;
@@ -2424,9 +2439,9 @@ textarea {
 .box > .icon:hover > .image > i { color: white !important; }
 .box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
 .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
-.box > .icon > .info > h3.title { font-family: 'PT Sans Narrow', Arial, sans-serif;,sans-serif !important; font-size: 20px; color: #222; font-weight: 500; padding-top: 20px; }
+.box > .icon > .info > h3.title { font-family: 'PT Sans Narrow', Arial, sans-serif;,sans-serif !important; font-size: 20px; color: #6d6e70; font-weight: 900; padding-top: 20px; }
 .box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
-.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #6d6e70; }
 .box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
 .box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
 .box .space { height: 30px; }
@@ -2458,7 +2473,7 @@ margin-top:25px;
     padding-top: 20px;
 }
 .carousel h2 {
-    color: #000; 
+    color: #6d6e70;
     padding-top: 10px; 
     padding-bottom: 20px;
 }
@@ -2480,7 +2495,7 @@ margin-top:25px;
     padding-top: 10px;
     font-size: 18px;
     font-weight: 400;
-    color: #444;
+    color: #6d6e70;
     line-height: 1.5em;
 }
 .carousel col-lg-4 p {
@@ -2490,6 +2505,7 @@ margin-top:25px;
     list-style-type: square;
     padding-left: 10px;
     text-align: left;
+    color: #6d6e70;
 } 
 .font{
     font-weight: lighter;

@@ -57,7 +57,7 @@
                     </button>
                     <!-- End Toggle Nav Link For Mobiles -->
                     
-                    <img src="{% static 'images/re_logo.png' %}" style="width:120px;height:100px;" class="navbar-brand" alt="images">
+                    <a href="{% url 'home' %}"><img src="{% static 'images/re_logo.png' %}" style="width:120px;height:100px;" class="navbar-brand" alt="images"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     
@@ -113,7 +113,7 @@
                 <div class="intro-text">
                     <h1>MAKE <span>BETTER DECISIONS, FASTER.</span></h1>
                     <p>Delivering insights through <br> real estate data, analytics and solutions</p>
-                    <a href="#feature" class="page-scroll btn btn-primary">Discover</a>
+                    <a href="#portfolio" class="page-scroll btn btn-primary">Discover</a>
                 </div>
             </div>
         </div>
@@ -201,26 +201,29 @@
             </div>
         </div>
     </section>  
-    <div class="section-trust text-center">
-        <h2>Trusted By</h2>
-    </div>       
-    <div id="client-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="client-box">
-                        <ul class="client-list">
-                            <li><a href="http://www.knightfrank.com.my/"><img src="{% static 'images/clients/Knight-Frank1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                            <li><a href="https://ipckl.com/"><img src="{% static 'images/clients/ipp.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                            <li><a href="http://www.raineandhorne.com.my/"><img src="{% static 'images/clients/logo-rh1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                            <li><a href="http://www.ntl.my/"><img src="{% static 'images/clients/NTL1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                            <li><a href="http://www.macrealinternational.com/"><img src="{% static 'images/clients/mac.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                        </ul>
+    <section class="trust">
+        <div class="section-trust text-center">
+            <h2>Trusted By</h2>
+        </div>
+        <div id="client-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="client-box">
+                            <ul class="client-list">
+                                <li><a href="http://www.knightfrank.com.my/"><img src="{% static 'images/clients/Knight-Frank1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="https://ipckl.com/"><img src="{% static 'images/clients/ipp.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="http://www.raineandhorne.com.my/"><img src="{% static 'images/clients/logo-rh1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="http://www.ntl.my/"><img src="{% static 'images/clients/NTL1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="http://www.macrealinternational.com/"><img src="{% static 'images/clients/mac.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>  
+    </section>
+    
     <!-- Start About Us Section -->
     <section id="about" class="about-section">
         <div class="container">
@@ -395,8 +398,8 @@
             <div class="row">
                 <div class="col-md-3 footer-brand">
                     <div id="logo3">
-                            <img src="{% static 'images/logo3.png' %}">
-                        </div>
+                        <img src="{% static 'images/logo3.png' %}">
+                    </div>
                     
                 </div>
                 <div class="col-md-4 footer-nav">
