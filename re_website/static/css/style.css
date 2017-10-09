@@ -166,6 +166,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
 }
 
+.jpph{
+    background: url(../images/blog-header.jpg) no-repeat;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    background-size: cover;
+    margin-bottom: 30px;   
+}
+
 #data-analysis{
     background: url(../images/data_transactions.png) no-repeat;
     padding-top: 250px;
@@ -2154,8 +2162,6 @@ h1.post-title a {
     text-align: center;
     display: inline-block;
 }
-
-
 .sidebar .tagcloud a {
     display: inline-block;
     color: #6a6a6a;
@@ -2175,11 +2181,6 @@ h1.post-title a {
     color: #fff;
 }
 
-/* End Sidebar Scetion */
-
-
-
-
 
 /***********************************/
 /* Start Contact Section
@@ -2193,8 +2194,6 @@ h1.post-title a {
     padding-top: 80px;
     padding-bottom: 100px;
 }
-
-
 
 .form-control {
     border-radius: 0;
@@ -2257,7 +2256,6 @@ textarea {
     font-weight: 400;
     margin-top: 30px;
 }
-
 
 #contacts{
     background: url(../images/contact.jpg) no-repeat;
@@ -2402,7 +2400,7 @@ textarea {
     margin: 0 0 14px;
     text-transform: uppercase;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .section-container-spacer ul{
     color: #444;
@@ -2413,22 +2411,6 @@ textarea {
 }
 .read-more{
     padding-top: 12px;
-}
-/*------------------------
- 10. Blog pages
---------------------------*/
-.post-block, .post-quote{ position: relative; background-color: #f5f5f5; padding: 30px; border-radius: 10px;  margin-bottom: 30px;}
-
-/*-- use for thumbnail --*/
-.post-holder { position: relative; margin-bottom: 30px; }
-/*-- for single post page --*/
-.post-img { position: relative; }
-.post-img img{border-radius: 10px; width: 100%;}
-.post-content {padding-top: 0px; padding-right: 50px;}
-
-.post-block .btn-default {
-    color: #fff; 
-    background-color: #5BB12F;
 }
 .second-portion {
   margin-top:0px; 
@@ -2468,7 +2450,6 @@ margin-top:25px;
 
     }
 }
-
 .carousel {
     padding-bottom: 25px
 }
@@ -2484,7 +2465,6 @@ margin-top:25px;
 .carousel h4 {
     color: #5BB12F;
     padding-top: 10px; 
-    /* font-weight: bold; */
     padding-bottom: 20px; 
     text-align: left;
 }
@@ -2492,6 +2472,9 @@ margin-top:25px;
     text-align: center;
     font-size: 18px;
     padding: 10px;
+}
+.carousel .black b{
+    color: #5BB12F;
 }
 .carousel .vms-Enterprise {
     padding-top: 10px;
@@ -2507,10 +2490,15 @@ margin-top:25px;
     list-style-type: square;
     padding-left: 10px;
     text-align: left;
-}
-
-
-#dataPage{
-    padding-top: 80px;
+} 
+.font{
+    font-weight: lighter;
+    font-size: 17px;
   }
-  
+
+  .maps1 img{
+    width: auto;
+    height: 500px;
+    max-width: 100%;
+    
+  }

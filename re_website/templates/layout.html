@@ -30,7 +30,7 @@
                 </button>
                 <!-- End Toggle Nav Link For Mobiles -->
                 
-                <img src="{% static 'images/re_logo.png' %}" style="width:120px;height:100px;" class="navbar-brand" alt="images">
+                <a href="{% url 'home' %}"><img src="{% static 'images/re_logo.png' %}" style="width:120px;height:100px;" class="navbar-brand" alt="images"></a>
             </div>
             <div class="navbar-collapse collapse">
                 
@@ -101,11 +101,11 @@
                 </div>
                 <div class="col-md-6">
                     <ul class="list text-right">
-                        <li><a href="#aboutus">About</a></li>
+                        <li><a href="{% url 'home' %}#about">About</a></li>
                         <li><a href="{% url 'financial' %}">Financial Institutions</a></li>
                         <li><a href="{% url 'valuer' %}">Valuers <br>Property Professionals</a></li>
                         <li><a href="{% url 'analysis' %}">Data Analysis</a></li>
-                        <li> <a href="">Data</a></li> 
+                        <li> <a href="{% url 'data' %}">Data</a></li> 
                         <li><a href="{% url 'contact' %}">Contact Us</a></li> 
                     </ul>
                 </div>
