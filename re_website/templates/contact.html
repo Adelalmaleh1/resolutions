@@ -2,19 +2,62 @@
 {% load static %}
 {% load bootstrap_tags static %}
 {% block content %}
-    
-    <div class="page-header">
-        <div class="overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Contact Us</h1>
+<section class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="white col-md-4">
+                <div class="contact_help">
+                    <h1>LET US HELP YOU</h1>
+                    <p>
+                        Push the boundaries of efficiency and excellence through game changing solutions.
+                    </p>
+                    <p>
+                        We provide innovative solutions that combine international best practices with cutting edge technology for financiers, governments and property professionals.
+                    </p>
+                    <p>
+                        Speak to us or email us at <a href="mailto:info@resolutions.com.my" style="color: #fff">info@resolutions.com.my</a> today about how we can help your organisation get ahead.
+                    </p>
+                </div> 
+            </div>
+            <div class="white col-md-6 contact_help">
+                <h1>FILL UP THE FORM BELOW</h1><br>
+                {% csrf_token %}
+                {{ form|as_bootstrap_inline }}
+            <div id="success" class="form-actions">
+                <button type="submit" class="save btn btn-primary">Send Message</button>
+            </div>
+           
+        </div>
+    </div>
+</section>
+    {% comment %} <section id="page-header"> 
+        <div class="row">
+            <div class="white">
+                <div class="col-md-4">
+                    <div class="contact contact_help">
+                        <h1>LET US HELP YOU</h1>
+                            <p>
+                                Push the boundaries of efficiency and excellence through game changing solutions.
+                            </p>
+                            <p>
+                                We provide innovative solutions that combine international best practices with cutting edge technology for financiers, governments and property professionals.
+                            </p>
+                            <p>
+                                Speak to us or email us at <a href="mailto:info@resolutions.com.my" style="color: #fff">info@resolutions.com.my</a> today about how we can help your organisation get ahead.
+                            </p>
+                    </div>  
+                </div>
+                <div class="col-md-6 modal-body" data-wow-duration="2s" data-wow-delay="600ms">
+                        {% csrf_token %}
+                        {{ form|as_bootstrap_inline }}
+                    <div id="success" class="form-actions">
+                        <button type="submit" class="save btn btn-primary">Send Message</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <section id="contact" class="contact">
+    </section> {% endcomment %}
+    {% comment %} <section id="contact" class="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -40,7 +83,7 @@
                 </div>
             </div>
         </div>  
-    </section>
+    </section> {% endcomment %}
     <div class="google-map">
             <div class='container-fluid'>
                 <div class="row map-container">

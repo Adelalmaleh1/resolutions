@@ -9,7 +9,7 @@ body {
 	font-family: 'PT Sans Narrow', Arial, sans-serif;
 	font-size: 16px;
     color: #111;
-    background-color: #f2fffc;
+    /* background-color: #f2fffc; */
     line-height: 21px;
 /*	font-weight: 300;*/
     -webkit-font-smoothing: antialiased !important;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Start Section Title */
 
 .section-title {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 .section-title h2{
     color: #6d6e70;
@@ -157,8 +157,28 @@ h1, h2, h3, h4, h5, h6 {
   
 .page-header {
     background: url(../images/page-header.jpg) no-repeat;
-    padding: 70px 0;
-    margin-top: 0px;
+    padding-top: 101px;
+    padding-bottom: 101px;
+    background-size: cover;
+    margin-bottom: -30px;   
+    margin-top: -30px;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.contact_help{  
+  color: #ffffff;
+  text-align:left;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.contact_help h1 {
+    color: #6d6e70;
+}
+
+.contact_help p {
+    color: #fff;
+    font-size: 20px;
 }
 .blog-header {
     background: url(../images/blog-header.jpg) no-repeat;
@@ -608,6 +628,7 @@ img.navbar-brand {
     padding-top: 0px;
     background-size: cover;
     background-position: center;
+    background: #fff;
 }
 
 #about-section-2 {
@@ -1038,8 +1059,7 @@ iframe {
 
 .portfolio-section-1 {
     padding-top: 80px;
-    padding-bottom: 120px;
-    background: #f2fffc;
+    padding-bottom: 80px;
 }
 
 .portfolio-section-2 {
@@ -1487,7 +1507,7 @@ h3.pricing-title {
 
 #client-section {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 }
 
 .client-box ul {
@@ -1530,7 +1550,7 @@ h3.pricing-title {
 .footer-bs {
     background-color: #1d1d1d;
     padding: 0px 40px;
-    margin-top: 30px;
+    margin-top: 0px;
     color: rgba(255,255,255,1.00);
 }
 

@@ -57,7 +57,7 @@
                     </button>
                     <!-- End Toggle Nav Link For Mobiles -->
                     
-                    <a href="{% url 'home' %}"><img src="{% static 'images/re_logo.png' %}" style="width:120px;height:100px;" class="navbar-brand" alt="images"></a>
+                    <a href="{% url 'home' %}"><img src="{% static 'images/re_logo.png' %}" style="width:100px;height:80px;" class="navbar-brand" alt="images"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     
@@ -197,26 +197,43 @@
                         <a href="{% url 'valuer' %}" class="btn btn-primary" title=""> Read More</a>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>  
-    <section class="trust">
-        <div class="section-trust text-center">
-            <h2>Trusted By</h2>
-        </div>
-        <div id="client-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="client-box">
-                            <ul class="client-list">
-                                <li><a href="http://www.knightfrank.com.my/"><img src="{% static 'images/clients/Knight-Frank1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="https://ipckl.com/"><img src="{% static 'images/clients/ipp.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="http://www.raineandhorne.com.my/"><img src="{% static 'images/clients/logo-rh1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="http://www.ntl.my/"><img src="{% static 'images/clients/NTL1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="http://www.macrealinternational.com/"><img src="{% static 'images/clients/mac.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                            </ul>
+    <!-- Start About Us Section -->
+    <section  id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h2>About Us</h2>
+                    </div>                        
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <p>RE Solutions is a data and analytics provider focused on Real Estate. Leveraging strong industry partnerships we empower our clients through cutting edge technology, technical expertise and the very latest real estate market data.</p>
+                        <p>We deliver greater insights to financial institutions, valuers, property professionals and market analysts.</p>
+                    </div>
+                </div>
+                <div class="section-trust text-center"><br><br>
+                    <h2>Trusted By</h2>
+                </div>
+                <div id="client-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="client-box">
+                                    <ul class="client-list">
+                                        <li><a href="http://www.knightfrank.com.my/"><img src="{% static 'images/clients/Knight-Frank1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="https://ipckl.com/"><img src="{% static 'images/clients/ipp.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="http://www.raineandhorne.com.my/"><img src="{% static 'images/clients/logo-rh1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="http://www.ntl.my/"><img src="{% static 'images/clients/NTL1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="http://www.macrealinternational.com/"><img src="{% static 'images/clients/mac.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -224,55 +241,8 @@
         </div>
     </section>
     
-    <!-- Start About Us Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
-                        <h2>About Us</h2>
-                    </div>                        
-                </div>
-            </div>
-            <div class="row">
-               <div class="col-md-5">
-                   <div class="about-img">
-                       <img src="{% static 'images/corporate1.jpg' %}" class="img-responsive" alt="About images">
-                       <div class="head-text">
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis.</p>
-                           <span>CEO, Themebean</span>
-                       </div>
-                   </div>
-               </div>
-                <div class="col-md-7">
-                    <div class="about-text">
-                        <p>RE Solutions is a data and analytics provider focused on Real Estate. Leveraging strong industry partnerships we empower our clients through cutting edge technology, technical expertise and the very latest real estate market data.</p>
-                        <p>We deliver greater insights to financial institutions, valuers, property professionals and market analysts.</p>
-                    </div>
-                   
-                    <div class="about-list">
-                       <h4>Some important Feature</h4>
-                       <ul>
-                           <li><i class="fa fa-check-square"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</li>
-                           <li><i class="fa fa-check-square"></i>Lorem ipsum dolor sit amet, consectetur adipiscing adipiscing.</li>
-                           <li><i class="fa fa-check-square"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan.</li>
-                           <li><i class="fa fa-check-square"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                           <li><i class="fa fa-check-square"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</li>
-                           <li><i class="fa fa-check-square"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                       </ul>
-                       
-                       <h4>More Feature</h4>
-                       <ul>
-                           <li><i class="fa fa-check-square"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</li>
-                           <li><i class="fa fa-check-square"></i>Lorem ipsum dolor sit amet, consectetur adipiscing adipiscing.</li>
-                           <li><i class="fa fa-check-square"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusan.</li>
-                           <li><i class="fa fa-check-square"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                       </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+           
+    
     <section class="call-to-action">
         <div class="container">
             <div class="row">
