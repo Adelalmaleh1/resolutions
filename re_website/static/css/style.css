@@ -148,10 +148,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #valuer-background{
     background: url(../images/Quote_finance.jpg) no-repeat;
-    padding-top: 100px;
-    padding-bottom: 250px;
-    background-size: cover;
-    margin-bottom: 30px;   
+    padding-top: 200px;
+    padding-bottom: 40px;
+    background-size: cover; 
+    margin-bottom: 30px; 
   }
 
   
@@ -189,14 +189,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
 }
 
-.jpph{
+#jpph{
     background: url(../images/blog-header.jpg) no-repeat;
-    padding: 70px 0;
-    color: #fff;
-    background-size: cover;
-    font-size: 18px;
-    font-family: 'PT Sans Narrow', Arial, sans-serif;
-    margin-top: 0px; 
+    padding-top: 300px;
+    padding-bottom: 80px;
+    background-size: cover; 
+    margin-bottom: 30px; 
 }
 
 #data-analysis{
