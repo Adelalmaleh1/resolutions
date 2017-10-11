@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-trust {
     color: #111;
     font-size: 48px;
-    /* padding-top: 80px; */
+    /* padding-button: 80px; */
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
 }
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #data-analysis{
     background: url(../images/data_transactions.png) no-repeat;
-    padding-top: 160px;
+    padding-top: 130px;
     padding-bottom: 40px;
     background-size: cover;
     margin-bottom: 30px;   
@@ -1009,7 +1009,7 @@ iframe {
 }
 
 .portfolio-section-1 {
-    padding-top: 80px;
+    padding-top: 130px;
     padding-bottom: 80px;
 }
 
@@ -2315,7 +2315,7 @@ textarea {
     padding-top: 12px;
 }
 .second-portion {
-  margin-top:0px; 
+  margin-top:40px; 
   
 }
 
