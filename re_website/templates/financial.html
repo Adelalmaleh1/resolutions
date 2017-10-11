@@ -1,93 +1,113 @@
 {% extends 'layout.html' %}
 {% load bootstrap_tags static %}
 {% block content %}
-{% comment %} 
-<section id="testimonial-section">
-    <div class="container">
+    <section id="financial" class="section text-center col-xs-12"> 
         <div class="row">
-            <div class="col-md-12">
-                <div class="testimonial-wrapper"> 
-                    <div class="testimonial-item">
-                        <h1><b>PORTFOLIO REVALUATION</b></h1>
-                        <h4>
-                            <b>
-                                Revalue entire portfolios instantly by leveraging the very latest transaction data and in depth analytics
-                            </b>
-                        </h4>
-                        <h3>The system is designed to extract information from an Excel file through the correspondence of specific column headings. This enables the system to provide a “Market Value Estimate” based on the Bank’s specific risk parameters.</h3>
-                        <h3>From the results derived or based on existing parameters, a request for indication from panel valuers can be both automatically or manually triggered for verification or test purposes.</h3>
-                        
-                    </div>
-                    <div class="testimonial-item">
-                        <h1><b>VALUATION MANAGEMENT</b></h1>
-                        <h4>
-                            <b>
-                                Automate, streamline and manage the valuation process from indication to compliance checks.
-                            </b>
-                        </h4>
-                        <p>
-                            Indicative Value Check
-                        </p>
+            <div class="col-xs-12 col-sm-4">
+                <div class="white financial-1">
+                    <h1>FINANCIAL</h1>
+                </div>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="gain col-xs-12 col-sm-4">
+                <img src="{% static "images/vms-enterprise-crop.png" %}" style="width:200px;height:200px;">
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <div class="gain white text-left">
+                    <br>
+                    <h1>IMPROVE ACCURACY, CONTROLS AND EFFICIENCY OF YOUR VALUATION FIRM</h1>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section id="valuer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-xs-12">
+                    <p>A cloud base end-to-end facilitator of the entire valuation process between a Financier and Valuer.                     
+                    <br>The System is designed to streamline and automate core functions through a centralised easy to use system.</p>  
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="valuer-post">
+                        <h2>Valuation Management</h2>
+                            <h4>Indicative Value Check</h4>
                         <ul>
                             <li>
-                                Get instant market value estimate - backed by up to data transaction data
+                                Get instant market value estimate - backed by up to data transaction data 
                             </li>
                             <li>
-                                Automatically request for indicative values from all panel valuers
+                                Automatically request for indicative values from all panel valuers 
                             </li>
                         </ul>
-                        <p>
-                            Process Controls
-                        </p>
+                            <h4>Process Controls</h4>
                         <ul>
                             <li>
-                                Single point to order, track, manage and retrieve valuation reports
+                                Single point to order, track, manage and retrieve valuation reports 
                             </li>
                             <li>
-                                Standardised digitally signed, and un-editable valuation reports for all panel valuers
-                            </li>
-                        </ul>
-                        <p>
-                            Valuers Performance Management
-                        </p>
-                        <ul>
-                            <li>
-                                Intuitive web based interface for effective data entry and file attachments
-                            </li>
-                            <li>
-                                Seamless synchronisation with VMS Business Edition (Subscription Service for Valuers)
-                            </li>
-                        </ul>
+                                    Standardised digitally signed, and un-editable valuation reports for all panel valuers
+                                </li>
+                            </ul>
 
-                        <p>
-                            Risk Management  
-                        </p>
-                        <ul>
-                            <li>
-                                Automated valuation report compliance checks
-                            </li>
-                            <li>
-                                Automated quality assurance checks
-                            </li>
+                                <h4>Valuers Performance Management</h4>
+
+                            <ul>
+                                <li>
+                                    Intuitive web based interface for effective data entry and file attachments
+                                </li>
+                                <li>
+                                    Seamless synchronisation with VMS Business Edition (Subscription Service for Valuers)
+                                </li>
+                            </ul>
+
+                                <h4>Risk Management</h4>
+
+                            <ul>
+                                <li>
+                                    Automated valuation report compliance checks
+                                </li>
+                                <li>
+                                    Automated quality assurance checks
+                                </li>
+                            </ul>
+
+                                <h4>Panel Management</h4> 
+
+                            <ul>
+                                <li>
+                                    Effectively Manage and change panel valuers
+                                </li>
+                                <li>
+                                    Instantly manage and implement valuation policies to all panel value
+                                </li>
+                            </ul>
                         </ul>
-                        <p>
-                            Panel Management
-                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <div class="valuer-post">
+                        <h2>Porfolio Revaluation</h2>
+                        <h4>Revalue entire portfolios instantly by leveraging the very latest transaction data and in depth analytics</h4>
                         <ul>
                             <li>
-                                Effectively Manage and change panel valuers
+                                The system is designed to extract information from an Excel file through the correspondence of specific column headings. This enables the system to provide a “Market Value Estimate” based on the Bank’s specific risk parameters. 
                             </li>
                             <li>
-                                Instantly manage and implement valuation policies to all panel value
+                                From the results derived or based on existing parameters, a request for indication from panel valuers can be both automatically or manually triggered for verification or test purposes.
                             </li>
                         </ul>
                     </div>
                 </div>
+                
             </div>
         </div>
-    </div>
-</section> {% endcomment %}
-<div class='container carousel'>
+    </section>
+    
+ {% comment %} <div class='container carousel'>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -208,8 +228,8 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
-</div>    
+    </div>  {% endcomment %}
+
 
 {% endblock %}
 

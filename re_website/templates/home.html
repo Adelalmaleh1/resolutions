@@ -83,7 +83,7 @@
                         <li>
                             <a href="{% url 'data' %}">Data</a>
                         </li>
-                        <li>
+                        {% comment %} <li>
                             <a href="{% url 'blog' %}">Blog</a>
                             <ul class="dropdown">
                                 <li>
@@ -93,6 +93,7 @@
                                     <a href="{% url 'blog_new' %}">New Article</a>
                                 </li>
                             </ul>
+                        </li> {% endcomment %}
                         <li>
                             <a href="#about">About Us</a>
                         </li>
@@ -201,7 +202,7 @@
         </div>
     </section>  
     <!-- Start About Us Section -->
-    <section  id="about" class="about-section">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -226,11 +227,11 @@
                             <div class="col-md-12">
                                 <div class="client-box">
                                     <ul class="client-list">
-                                        <li><a href="http://www.knightfrank.com.my/"><img src="{% static 'images/clients/Knight-Frank1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                        <li><a href="https://ipckl.com/"><img src="{% static 'images/clients/ipp.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                        <li><a href="http://www.raineandhorne.com.my/"><img src="{% static 'images/clients/logo-rh1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                        <li><a href="http://www.ntl.my/"><img src="{% static 'images/clients/NTL1.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
-                                        <li><a href="http://www.macrealinternational.com/"><img src="{% static 'images/clients/mac.jpg' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="http://www.knightfrank.com.my/"><img src="{% static 'images/clients/Knight-Frank1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="https://ipckl.com/"><img src="{% static 'images/clients/ipp.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="http://www.raineandhorne.com.my/"><img src="{% static 'images/clients/logo-rh1.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="http://www.ntl.my/"><img src="{% static 'images/clients/NTL.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
+                                        <li><a href="http://www.macrealinternational.com/"><img src="{% static 'images/clients/mac.png' %}" class="img-responsive" alt="Clients Logo"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -240,31 +241,31 @@
             </div>
         </div>
     </section>
-    
-           
-    <div class="container second-portion">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-lg-4 col-sm-offset-4">
-                <div class="box">							
-                    <div class="icon">
-                        <div class="image">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
+    <section class="contacts">          
+        <div class="container second-portion">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-sm-offset-4">
+                    <div class="box">							
+                        <div class="icon">
+                            <div class="image">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <div class="info">
+                                <h3 class="title">Any Enquiries</h3>
+                                <br>
+                                    <div class="row">
+                                        <h1 class="text-center"><a href="{% url 'contact' %}#myModal" class="btn btn-primary btn-lg">Contact Us</a></h1>
+                                    </div>
+                                
+                            </div>
                         </div>
-                        <div class="info">
-                            <h3 class="title">Any Enquiries</h3>
-                            <br>
-                                <div class="row">
-                                    <h1 class="text-center"><a href="{% url 'contact' %}#myModal" class="btn btn-primary btn-lg">Contact Us</a></h1>
-                                </div>
-                            
-                        </div>
-                    </div>
-                    <div class="space"></div>
-                </div> 
+                        <div class="space"></div>
+                    </div> 
+                </div>
             </div>
         </div>
-    </div>
-    <section class="call-to-action">
+    </section>
+    {% comment %} <section class="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow zoomIn" data-wow-duration="2s" data-wow-delay="300ms">
@@ -272,7 +273,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> {% endcomment %}
     
     <div class="footer-bs text-center col-xs-12">
         <div class="">

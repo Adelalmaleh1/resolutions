@@ -2,21 +2,22 @@
 {% load bootstrap_tags static %}
 {% block content %}
 
-
     <section id="data-analysis" class="section text-center col-xs-12"> 
         <div class="container">
             <div class="row">
-                <div class="white text-left analysis-1">
-                    <h1>ANALYSIS</h1>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="white analysis-1">
+                        <h1>ANALYSIS</h1>
+                    </div>  
                 </div>
+            </div>
+        
+            <div class="row">
                 <div class="col-sm-6">
-                    <div class="gain white">
-                        <h1>
-                            <div class="text-left">
-                                GAIN INSIGHTS TO <br> THE REAL ESTATE MARKET
-                            </div>
-                        </h1>
-                    </div>
+                    <div class="gain white text-left">
+                        <br>
+                        <h1>GAIN INSIGHTS TO <br> THE REAL ESTATE MARKET</h1>
+                    </div>  
                 </div>
             </div>
         </div>
@@ -40,7 +41,6 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="post-block">
                         <div class="row ">
-                            <!-- post block -->
                             <div class="col-md-6">
                                 <div class="post-img">
                                     <img src="{% static 'images/post-img.png' %}" alt="" class="img-responsive">
@@ -58,5 +58,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><br><br>
 {% endblock %}
