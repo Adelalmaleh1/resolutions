@@ -66,7 +66,7 @@ a:active{
     line-height: 50px;
     letter-spacing: 5px;
     margin-bottom: 55px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
 }
 
 img {
@@ -124,9 +124,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
 }
 .section-title h2{
-    color: #6d6e70;
+    color: #fff;
     font-weight: 400;
-    margin: 0 0 14px;
+    text-align: center;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 600;
@@ -181,15 +181,46 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-#financial{
+
+.financial {
+    text-align: center;
+    color: #fff;
     background: url(../images/financial.jpg) no-repeat;
-    padding-top: 70px;
-    padding-bottom: 30px;
-    background-size: cover; 
-    margin-bottom: 30px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    background-size: cover;    
 }
 
-.financial-1  h1{
+.financial .overlay {
+    /* background: rgba(0, 0, 0, 0.7); */
+    padding-top: -40px;
+    width: 100%;
+    height: auto%;
+}
+.logo2{
+    padding-top: 100px;
+}
+
+#vm-financial {
+    text-align: center;
+    color: #fff;
+    background: url(../images/kuala-lumpur-1.jpg) no-repeat;
+    padding-top: 96px;
+    padding-bottom: 76px;
+    background-size: cover;
+    margin-bottom: -30px;   
+    margin-top: -30px;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.intro-text {
+    position: relative;
+    padding: 20% 0 15% 0;
+}
+
+.financial .intro-text h1 {    
+    font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 5px;
@@ -204,9 +235,95 @@ h1, h2, h3, h4, h5, h6 {
     animation-duration: 2s;
     font-family: 'Oswald', sans-serif;
 }
+
+.financial .intro-text h1 span {
+    color: #;
+}
+
+.financial .intro-text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 3px;
+    /* margin-bottom: 55px; */
+    -webkit-animation: bounceInLeft;
+    -moz-animation: fadeInLeft;
+    -o-animation: fadeInLeft;
+    animation: bounceLeft;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.financial .intro-text .btn-primary {
+    padding: 15px 25px;
+    font-size: 16px;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0;
+    width: 130px;
+}
+
+.financial .btn-primary:hover {
+	background: #fff;
+	border-color: #fff;
+    color: #111;
+}
+
+/* 
+
+#financial{
+    background: url(../images/financial.jpg) no-repeat;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    background-size: cover; 
+}
+#financial p{
+    color: #fff !important;
+    
+    font-weight: 700;
+}
+.imporve p{
+    color: #fff !important;
+    padding-left: 35px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    /* text-shadow: 2px 2px black; */
+/* } */
+/* 
+.imporve1{
+    margin-top: 0px;
+    padding-top: 12px;
+    font-size: 21.6px;
+    font-weight: lighter;
+    text-align:left;
+    margin-left: 50px;
+    color: #000;
+    letter-spacing: 1px;
+  } */ */
+  
+  
+
+.financial-1  h1{
+    text-shadow: 2px 2px black;
+    -webkit-animation: bounceIn;
+    -moz-animation: rubberBand;
+    -o-animation: bounceIn;
+    animation: bounceIn;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    font-family: 'Oswald', sans-serif;
+}
 .page-header {
     background: url(../images/page-header.jpg) no-repeat;
-    padding-top: 76px;
+    padding-top: 96px;
     padding-bottom: 76px;
     background-size: cover;
     margin-bottom: -30px;   
@@ -1354,32 +1471,35 @@ and (min-width : 551px){
     background: #f1f1f1;
     padding: 30px 0;
 }
-
-.pricing-header i {
-    font-size: 32px;
-    background: #5BB12F;
-    color: #fff;
-    padding: 35px;
-    border-radius: 100%;
-}
-
 .pricing-body {
-    padding: 30px;
+    text-align: left;
 }
 
 h3.pricing-title {
     margin-bottom: 20px;
+    color: #6d6e70;
 }
 
-.pricing-body p {
-    margin-bottom: 20px;
+.pricing-body h4 {
+    color: #fff;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 900;
+    margin-bottom: 14px;
+    margin-top: 8px;
 }
 
-.pricing-body a {
-    font-size: 20px;
-    text-transform: none;
+.pricing-body ul {
+    margin-left: 14%;
+    list-style-type: square;
+    margin-right: 10%;
+    font-size: 18px;
+    padding-bottom: 14px;
+    font-weight: 400;
+    color: #5BB12F;
+    line-height: 1.5em;
 }
-
 .colored-bg {
     background: #5BB12F;
 }
@@ -1745,6 +1865,11 @@ h1.post-title a {
     margin-bottom: 40px;
 }
 
+.content{
+    background-color: #e5e5e5;
+    background-attachment: fixed;
+    background-size: cover; 
+}
 .single-blog-post .post-img {
     position: relative;
 }
@@ -2200,6 +2325,11 @@ textarea {
 #valuer-section {
     padding-top: 80px;
     padding-bottom: 40px;
+    
+}
+#financial-section{
+    padding-top: 80px;
+    padding-bottom: 40px;
     background-color: #e5e5e5;
 }
 
@@ -2281,6 +2411,10 @@ textarea {
     font-weight: 900;
     margin-bottom: 8px;
     margin-top: 8px;
+}
+.valuer-post u {
+    color: #5BB12F;
+    padding-top: 30px;
 }
 
 .valuer-post ul{
@@ -2435,3 +2569,133 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+
+.hover-text {
+    margin: 30px 0;
+    padding:0 50px 10px;
+    /* margin-top: 30px; */
+    width: 100%;
+    padding-top: 600px;
+    background-color: #333333;
+    position: relative;
+    overflow:hidden;
+    h2, p {
+          color: #fff;
+      }
+  }
+  .content, .hover-content {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      
+  }
+  
+  .content {
+      text-align: center;
+      top: 0;
+      height: 100%;
+  
+      &:before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+          margin-right: -0.25em;
+      }
+  }
+  .inner-content2{
+    padding-right: auto;
+    margin: auto;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    max-width: 100%;  
+  }
+  .inner-content {
+      margin: auto;
+      display: inline-block;
+      height: auto;
+      vertical-align: middle;
+      max-width: 100%;
+      padding: 200px 30px;
+      color: #fff;
+  }
+  .hover-content {
+      background: #3392d2;
+      color: #fff;
+      height: 0;
+      bottom: 0;
+      -moz-transition: height 0.333s ease-out;
+      -ms-transition: height 0.333s ease-out;
+      -o-transition: height 0.333s ease-out;
+      -webkit-transition: height 0.333s ease-out;
+      transition: height 0.333s ease-out;
+  }
+  
+  .hover-text:hover .hover-content {
+      height: 132%;
+      display: block;
+  }
+    
+  
+  .hover-text1 {
+      margin-top: 30px;
+      width: 100%;
+      padding-bottom: 300px;
+      background-color: #E8E8E8;
+      position: relative;
+      border-radius: 17px;
+      overflow:hidden;
+      h2, p {
+          color: #fff;
+      }
+  }
+  
+  .content1, .hover-content1 {
+      position: absolute;
+      left: 0;
+      width: 100%;
+  }
+  
+  .content1 {
+      text-align: center;
+      top: 0;
+      height: 100%;
+      &:before {
+          content: '';
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+          margin-right: -0.25em;
+      }
+  }
+  
+  .inner-content1 {
+      margin: auto;
+      display: inline-block;
+      height: auto;
+      vertical-align: middle;
+      max-width: 99%;
+      padding: 10px 30px;
+      color: #000;
+  }
+  
+  .hover-content1 {
+      background: #eaeaea;
+      color: #fff;
+      height: 0;
+      bottom: 0;
+      -moz-transition: height 0.333s ease-out;
+      -ms-transition: height 0.333s ease-out;
+      -o-transition: height 0.333s ease-out;
+      -webkit-transition: height 0.333s ease-out;
+      transition: height 0.333s ease-out;
+  }
+  
+  .hover-text1:hover .hover-content1 {
+      margin-top: 30px;
+    width: auto;
+    height: 300px;
+    max-width: 180%;
+  }
