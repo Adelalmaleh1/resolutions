@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #valuer-background{
-    background: url(../images/Quote_finance.jpg) no-repeat;
+    background: url(../images/products/Quote_finance.jpg) no-repeat;
     padding-top: 70px;
     padding-bottom: 30px;
     background-attachment: fixed;
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 .financial {
     text-align: center;
     color: #fff;
-    background: url(../images/financial.jpg) no-repeat;
+    background: url(../images/products/financial.jpg) no-repeat;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 .page-header {
-    background: url(../images/blog-header.jpg) no-repeat;
+    background: url(../images/products/blog-header.jpg) no-repeat;
     padding-top: 96px;
     padding-bottom: 76px;
     background-size: cover;
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 .blog-header {
-    background: url(../images/blog-header.jpg) no-repeat;
+    background: url(../images/products/blog-header.jpg) no-repeat;
     padding: 70px 0;
     color: #fff;
     font-size: 18px;
@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #jpph{
-    background: url(../images/Data.jpg) no-repeat;
+    background: url(../images/products/Data.jpg) no-repeat;
     padding-top: 80px;
     padding-bottom: 390px;
     background-attachment: fixed;
@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 #data-analysis{
-    background: url(../images/data_transactions.png) no-repeat;
+    background: url(../images/products/data_transactions.png) no-repeat;
     background-attachment: fixed;
     padding-top: 100px;
     padding-bottom: 40px;
