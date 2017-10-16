@@ -24,15 +24,12 @@
                     <h1>
                         FILL UP THE FORM BELOW
                     </h1>
-                    <form action="" method="POST" class="form-horizontal track-event-form bv-form" data-goaltype="”General”" data-formname="”ContactUs”" method="post" id="contact-us-all" novalidate="novalidate">
+                    <form action="" method="POST">
                         {% csrf_token %}
                         {{ form|as_bootstrap_inline }}
-                        <div id="success" class="form-actions">
-                            <button type="submit" class="save btn">Send Message</button>
-                            
-                        </div>
+                        <button type="submit" class="save btn btn-default">Submit</button>
                     </form>
-
+                </div>
             </div>
         </div>
     </section>
