@@ -121,6 +121,16 @@ h1, h2, h3, h4, h5, h6 {
 #blue {
     background-color: #2f818d;
 }
+.tabs{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-attachment: fixed;
+    border: 1px solid #F7F7F7;
+    border-radius: 5px;
+	position: relative;
+	margin-bottom: 25px;
+    background-size: cover; 
+}
 .vm-transparent {
     margin-top: 20px; 
 	background-color: rgba(255, 255, 255, 0.7);
@@ -185,14 +195,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 50px;
     letter-spacing: 5px;
     margin-bottom: 55px;
-    /* -webkit-animation: bounceIn;
-    -moz-animation: rubberBand;
-    -o-animation: bounceIn;
-    animation: bounceIn;
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s; */
     font-family: 'Oswald', sans-serif;
 }
 
@@ -208,7 +210,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .financial .overlay {
-    /* background: rgba(0, 0, 0, 0.7); */
     padding-top: -40px;
     width: 100%;
     height: auto;
@@ -261,7 +262,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     line-height: 35px;
     letter-spacing: 3px;
-    /* margin-bottom: 55px; */
     -webkit-animation: bounceInLeft;
     -moz-animation: fadeInLeft;
     -o-animation: fadeInLeft;
@@ -286,43 +286,6 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: #fff;
     color: #111;
 }
-
-/* 
-
-#financial{
-    background: url(../images/financial.jpg) no-repeat;
-    padding-top: 50px;
-    padding-bottom: 0px;
-    margin-bottom: 30px;
-    background-size: cover; 
-}
-#financial p{
-    color: #fff !important;
-    
-    font-weight: 700;
-}
-.imporve p{
-    color: #fff !important;
-    padding-left: 35px;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 50px;
-    letter-spacing: 5px;
-    /* text-shadow: 2px 2px black; */
-/* } */
-/* 
-.imporve1{
-    margin-top: 0px;
-    padding-top: 12px;
-    font-size: 21.6px;
-    font-weight: lighter;
-    text-align:left;
-    margin-left: 50px;
-    color: #000;
-    letter-spacing: 1px;
-  } */ */
-  
-  
 
 .financial-1  h1{
     text-shadow: 2px 2px black;
@@ -389,9 +352,7 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../images/products/Data.jpg) no-repeat;
     padding-top: 80px;
     padding-bottom: 390px;
-    background-attachment: fixed;
     background-size: cover; 
-    /* margin-bottom: 30px;     */
 }
 .data-1 {
     text-align:left;
@@ -418,7 +379,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .analysis-1 {
     text-align: left;
-    margin-left:20px;
 }
 
 .analysis-1  h1{
@@ -426,14 +386,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 50px;
     letter-spacing: 5px;
     margin-bottom: 55px;
-    /* -webkit-animation: bounceIn;
-    -moz-animation: rubberBand;
-    -o-animation: bounceIn;
-    animation: bounceIn;
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s; */
     font-family: 'Oswald', sans-serif;
 }
 .gain{
@@ -2231,7 +2183,7 @@ textarea {
 }
 
 #valuer-section {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 40px;
     
 }
@@ -2248,7 +2200,8 @@ textarea {
 
 .valuer-post {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+    padding-top: 100px;
   }
 
   .valuer-post a {
