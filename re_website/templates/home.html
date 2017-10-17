@@ -119,83 +119,71 @@
             </div>
         </div>
     </div>
-    <!-- End Header Section -->
-    {% comment %} <!-- Start Service Section -->
-    <section id="service-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
-                        <h2>Our Solution</h2>
-                        <p>Valuation Management System</p>
-                    </div>                        
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="services-post">
-                        <a href="#"><i class="fa fa-skyatlas"></i></a>
-                        <h2>RESPONSIVE DESIGN</h2>
-                        <p>VMS is a cloud based end to end process manager facilitating the ordering, management and compliance of a valuation request between a Financier and Valuer.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="services-post">
-                        <a href="#"><i class="fa fa-gift"></i></a>
-                        <h2>RESPONSIVE DESIGN</h2>
-                        <p>VMS specialised property systems and data provider. Our flagship Software as a Service (SaaS) system combine up to date property data with a comprehensive analytics engine to help drive confident decision making within the property and finance industries. </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="services-post">
-                        <a href="#"><i class="fa fa-magic"></i></a>
-                        <h2>RESPONSIVE DESIGN</h2>
-                        <p>VMS streamlines valuation policies and procedures to actively mitigate risk of losses, fraud and collusion, reduce operating costs and improve the overall customer experience. </p>
-                    </div>
-                </div>
-                
-                
-            </div>
-        </div>
-    </section> {% endcomment %}
-    <!-- Start Service Section -->
+
     <section id="portfolio" class="portfolio-section-1">
         <div class="container">
             <div class="row">
                 <div class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
                     <h2>Solutions</h2>
-                </div>    
-                
-                <div class="col-xs-12 col-md-4 section-container-spacer">
-                    <img src="{% static 'images/solutions/img1.jpg' %}" class="img-responsive" alt="" />
-                    <h2>Financial Institutions</h2>
-                    <p>A complete end-to-end facilitator of the valuation process between financiers and valuers for the:</p>
-                    <ul>
-                        <li></i>New Valuations</li>
-                        <li></i>Automated Portfolio</li>
-                        <li></i>Revaluation</li>
+                </div>        
+                <div class="col-xs-12 col-md-4">
+                    <ul class="ch-grid">
+                        <li>
+                            <div class="ch-item ch-img-1">
+                                <div class="ch-info">
+                                    <h3>Enterprise</h3>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
-                    <div class=text-left>
-                        <a href="{% url 'financial' %}" class="btn btn-primary" title=""> Read More</a>
+                    <div class="section-container-spacer">
+                        <h2>Financial Institutions</h2>
+                        <p>A complete end-to-end facilitator of the valuation process between financiers and valuers for the:</p>
+                        <ul>
+                            <li></i>New Valuations</li>
+                            <li></i>Automated Portfolio</li>
+                            <li></i>Revaluation</li>
+                        </ul>
+                        <div class=text-left>
+                            <a href="{% url 'financial' %}" class="btn btn-primary" title=""> Read More</a>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="col-xs-12 col-md-4 section-container-spacer">
-                    <img src="{% static 'images/solutions/img3.jpg' %}" class="img-responsive" alt="" />
-                    <h2>Data Analysis</h2>
-                    <p>Gain insights into the real estate market using the very latest data and our cutting edge analytics solutions. </p>
-                    <div class="text-left read-more"><br><br><br>
-                        <a href="{% url 'analysis' %}" class="btn btn-primary" title=""> Read More</a>
+                <div class="col-xs-12 col-md-4">
+                    <div class="ch-grid">
+                        <li>
+                            <div class="ch-item ch-img-3">
+                                <div class="ch-info">
+                                    <h3>Business</h3>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="section-container-spacer">
+                        <h2>Valuers Property Professionals</h2>
+                        <p>Complete solution for the modern valuation firm.</p>
+                        <p>Search transactions, manage workflow, capture data and generate reports anytime, anywhere.</p>
+                        <div class="text-left"><br><br>
+                            <a href="{% url 'valuer' %}" class="btn btn-primary" title=""> Read More</a>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="col-xs-12 col-md-4 section-container-spacer">
-                        <img src="{% static 'images/solutions/img2.jpg' %}" class="img-responsive" alt="" />
-                    <h2>Valuers Property Professionals</h2>
-                    <p>Complete solution for the modern valuation firm.</p>
-                    <p>Search transactions, manage workflow, capture data and generate reports anytime, anywhere.</p>
-                    <div class="text-left"><br><br>
-                        <a href="{% url 'valuer' %}" class="btn btn-primary" title=""> Read More</a>
+                <div class="col-xs-12 col-md-4">
+                    <div class="ch-grid">
+                        <li>
+                            <div class="ch-item ch-img-2">
+                                <div class="ch-info">
+                                    <h3>AVM</h3>  
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="section-container-spacer">
+                        <h2>Data Analysis</h2>
+                        <p>Gain insights into the real estate market using the very latest data and our cutting edge analytics solutions. </p>
+                        <div class="text-left read-more"><br><br><br>
+                            <a href="{% url 'analysis' %}" class="btn btn-primary" title=""> Read More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -318,7 +306,9 @@
                     <li>Telephone: <a href="tel:+60376212173" style="color: #fff">+60 3 76212173</a></li>
                 </ul> 
                 <a style="color:white" href="https://www.google.com/maps/place/Centum+Oasis+Corporate+Park/@3.1135181,101.5749815,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4e820a67e927:0x1451b173171ddb3b!8m2!3d3.1135127!4d101.5771702"><i class="fa fa-map-marker" aria-hidden="true"></i> C-8-16, Centum @ Oasis Corporate Park, No.2, Jalan Pju 1A/2, Ara Damansara, Petaling Jaya, Selangor, 47301, Malaysia </a>
-                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9326623747543!2d101.57484471469687!3d3.1125187977335247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c29e9a19335%3A0xd0d0c077258eef2b!2sOasis+Corporate+Park!5e0!3m2!1sen!2sus!4v1507010639616" width="230" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+                <div class="google-map">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9326623747543!2d101.57484471469687!3d3.1125187977335247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c29e9a19335%3A0xd0d0c077258eef2b!2sOasis+Corporate+Park!5e0!3m2!1sen!2sus!4v1507010639616" width="230" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+                </div>
                 
             </div>
         </div>
