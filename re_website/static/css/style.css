@@ -326,6 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 #jpph {
     background: url(../images/products/Data.jpg) no-repeat;
     padding-top: 80px;
+    background-attachment: fixed;
     padding-bottom: 390px;
     background-size: cover; 
 }
