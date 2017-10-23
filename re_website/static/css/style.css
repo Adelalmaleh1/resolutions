@@ -152,6 +152,27 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 48px;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     text-transform: none;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.section-trusts h2{
+    color: #6d6e70;
+    text-shadow: 2px 2px orange;
+    font-weight: 400;
+    margin: 0 0 14px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.section-trusts p {
+    color: #6d6e70;
+}
+.section-titles p {
+    color: #6d6e70;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
 }
 .section-trust h2{
     color: #6d6e70;
@@ -186,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 50px;
     letter-spacing: 5px;
     margin-bottom: 55px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
 }
 
 
@@ -194,9 +215,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #fff;
     background: url(../images/products/financial.jpg) no-repeat;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
     background-size: cover;    
 }
 
@@ -236,15 +254,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     font-weight: 300;
     line-height: 35px;
-    letter-spacing: 3px;
-    -webkit-animation: bounceInLeft;
-    -moz-animation: fadeInLeft;
-    -o-animation: fadeInLeft;
-    animation: bounceLeft;
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
+    /* letter-spacing: 3px; */
 }
 
 .financial .intro-text .btn-primary {
@@ -627,8 +637,8 @@ img.navbar-brand {
 }
  
 #about {
-    padding-bottom: 140px;
-    padding-top: 140px;
+    padding-bottom: 102px;
+    padding-top: 102px;
     background-size: cover;
     background-position: center;
     background: #f5f5f5;
