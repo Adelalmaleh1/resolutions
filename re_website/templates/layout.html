@@ -83,55 +83,75 @@
 </header>
 {% block content %}
 {% endblock %} 
-<div class="footer-bs text-center col-xs-12">
-    <div class="">
-        <div class="row">
-            <div class="col-md-3 footer-brand">
-                <div id="logo3">
-                    <img src="{% static 'images/logos/logo3.png' %}">
-                </div>   
-            </div>
-            <div class="col-md-4 footer-nav">
-                <div class="col-md-6">
-                    <ul class="pages text-left">
-                        <li><a href="http://vms.com.my/"><i class="fa fa-bar-chart" aria-hidden="true"></i> VMS</a></li>
-                        <li><i class="fa fa-briefcase" aria-hidden="true"></i> Job Openings</a></li>
-                        <li><i class="fa fa-bell" aria-hidden="true"></i> Terms & Conditions</a></li>
-                        <li><i class="fa fa-user-secret" aria-hidden="true"></i> Privacy Policy</a></li>
-                    </ul>
+<div class="footer">
+    <div class="container">
+        <div class="footer-block">
+            <div class="row">
+                <div class="col-lg-5 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-widget footer-social footer-re">
+                        <!-- social block -->
+                        <h2 class="widget-title">RESOLUTIONS</h2>
+                        <ul class="listnone">
+                            <li>
+                                <a href="{% url 'home' %}"></i> Home </a>
+                            </li>
+                            <li>    
+                                <a href="{% url 'financial' %}"></i> Financial Institutions</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'valuer' %}">Valuers / Property Professionals</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'analysis' %}">Data Analysis</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'data' %}">Data</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'home' %}#about">About Us</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'contact' %}">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.social block -->
                 </div>
-                <div class="col-md-6">
-                    <ul class="list text-right">
-                        <li><a href="{% url 'home' %}#about">About</a></li>
-                        <li><a href="{% url 'financial' %}">Financial Institutions</a></li>
-                        <li><a href="{% url 'valuer' %}">Valuers <br>Property Professionals</a></li>
-                        <li><a href="{% url 'analysis' %}">Data Analysis</a></li>
-                        <li> <a href="{% url 'data' %}">Data</a></li> 
-                        <li><a href="{% url 'contact' %}">Contact Us</a></li> 
-                    </ul>
+                <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="footer-widget footer-social">
+                        <!-- social block -->
+                        <h2 class="widget-title">Social Feed</h2>
+                        <ul class="listnone">
+                            <li>
+                                <a href="http://vms.com.my/"><i class="fa fa-bar-chart" aria-hidden="true"></i> VMS</a>
+                            </li>
+                            <li>
+                                <a href="#"> <i class="fa fa-facebook"></i> Facebook </a>
+                            </li>   
+                            <li><a href="#"><i class="fa fa-linkedin"></i> Linked In</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.social block -->
                 </div>
-            </div>
-            <div class="col-md-2 footer-social">
-                <ul class="page text-left">
-                <li><a href="https://www.facebook.com/resolutionsmy/?ref=aymt_homepage_panel"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
-                <li><a href="https://www.linkedin.com/company-beta/13213733/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a></li>
-                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>   
-                </ul>
-            </div>
-            <div class="col-md-3 footer-ns text-left footer-nav">
-                <b>For any enquiries:</b><br>
-                <ul class="list text-left ">
-                    <li>Email: <a href="mailto:info@resolutions.com.my" style="color: #fff">info@resolutions.com.my</a></li>
-                    <li>Telephone: <a href="tel:+60376212173" style="color: #fff">+60 3 76212173</a></li>
-                </ul> 
-                <a style="color:white" href="https://www.google.com/maps/place/Centum+Oasis+Corporate+Park/@3.1135181,101.5749815,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4e820a67e927:0x1451b173171ddb3b!8m2!3d3.1135127!4d101.5771702"><i class="fa fa-map-marker" aria-hidden="true"></i> C-8-16, Centum @ Oasis Corporate Park, No.2, Jalan Pju 1A/2, Ara Damansara, Petaling Jaya, Selangor, 47301, Malaysia </a>
-                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9326623747543!2d101.57484471469687!3d3.1125187977335247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c29e9a19335%3A0xd0d0c077258eef2b!2sOasis+Corporate+Park!5e0!3m2!1sen!2sus!4v1507010639616" width="230" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
-                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-widget">
+                        <h2 class="widget-title">For any enquiries:</h2>
+                        <ul class="listnone contact">
+                            <li><i class="fa fa-phone"></i><a href="tel:+60 12 520 2750">+60 3 76212173</a></li>
+                            <li><i class="fa fa-fax"></i><a href="tel:+60 37 621 2173">+60 3 76212173</a></li>
+                            <li><i class="fa fa-envelope-o"></i><a href="mailto:info@resolutions.com.my">info@resolutions.com.my</a></li>
+                            <div class="google-maps">
+                                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9326623747543!2d101.57484471469687!3d3.1125187977335247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c29e9a19335%3A0xd0d0c077258eef2b!2sOasis+Corporate+Park!5e0!3m2!1sen!2sus!4v1507010639616" width="230" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- /.footer block -->
     </div>
 </div>
-<!-- Start CCopyright Section -->
+
 <div id="copyright-section" class="copyright-section">
     <div class="container">
         <div class="row">
