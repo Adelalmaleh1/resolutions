@@ -435,7 +435,7 @@ img.navbar-brand {
     font-size: 16px;
     line-height: 10px;
 	font-weight: 500;
-    padding: 25px 15px 30px;
+    padding: 30px 15px 30px;
 	overflow: hidden;
     border-top: 2px solid transparent;
     transition: all 0.3s ease-in-out;
@@ -447,10 +447,12 @@ img.navbar-brand {
 .navbar-default .navbar-nav > li > a i {
     padding-left: 10px;
 }
-
+/* .navbar-default .navbar-nav > li > a.active {
+    padding-top: 40px;
+} */
 .navbar-default .navbar-nav > li > a.active, 
 .navbar-default .navbar-nav > li:hover > a {
-	border-top: 2px solid #67bb44;
+	border-top: 5px solid #67bb44;
     color: #fff;
     background: #67bb44;
 }
@@ -1216,9 +1218,14 @@ h1.post-title a {
 .section-container-spacer {
     margin-bottom:30px;
 }
+.section-container-spacer p { 
+    padding-left: 20px;
+    margin: 0 0 14px;
+}
 .section-container-spacer h2{
     color: #6d6e70;
     padding-top: 20px;
+    padding-left: 20px;
     font-weight: 900;
     margin: 0 0 14px;
     text-transform: uppercase;
@@ -1226,7 +1233,7 @@ h1.post-title a {
 }
 .section-container-spacer ul{
     color: #6d6e70;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-bottom: 10px;
     list-style-type: square;
     font-size: 19px;
@@ -1235,6 +1242,7 @@ h1.post-title a {
 
 .read-more {
     padding-top: 12px;
+    padding-left: 20px;
 }
 .second-portion {
   margin-top:40px;  
